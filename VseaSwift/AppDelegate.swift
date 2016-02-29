@@ -7,7 +7,8 @@
 //
 
 import UIKit
-
+let WIDTH = UIScreen.mainScreen().bounds.size.width
+let HEIGHT = UIScreen.mainScreen().bounds.size.height
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -16,6 +17,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let tabbarVC = TabBarVC()
+        self.window = UIWindow(frame: CGRectMake(0, 0, WIDTH, HEIGHT))
+        self.window?.rootViewController = tabbarVC
+        self.window?.makeKeyAndVisible()
+        
         return true
     }
 
