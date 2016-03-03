@@ -9,6 +9,7 @@
 import UIKit
 let WIDTH = UIScreen.mainScreen().bounds.size.width
 let HEIGHT = UIScreen.mainScreen().bounds.size.height
+let BOUNDS = UIScreen.mainScreen().bounds
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -17,14 +18,41 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        
         let tabbarVC = TabBarVC()
         self.window = UIWindow(frame: CGRectMake(0, 0, WIDTH, HEIGHT))
         self.window?.rootViewController = tabbarVC
         self.window?.makeKeyAndVisible()
         
+        //JPush,,支付宝微信支付,
+        
+        //Bugly
+//        CrashReporter.sharedInstance().enableLog(true)   //崩溃调试
+        CrashReporter.sharedInstance().installWithAppId("900013131")
+        
+        //Jpush
+        
+        
+        
+        //UM分享,登录
+        UMSocialData.setAppKey("55ff995867e58e4fd20003e1")
+        UMSocialWechatHandler.setWXAppId("wx6164f12e118f863f", appSecret: "f909a93ac14c6f44887cf68c4b2b4532", url: "http://login.vsea.com.cn/")
+        UMSocialQQHandler.setQQWithAppId("101236466", appKey: "f0b7cd47385926754cb49f480e4fd7e1", url: "http://www.vsea.com.cn/app/")
+        
+        
         return true
     }
+    
+    func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject) -> Bool {
+        let result = UMSocialSnsService.handleOpenURL(url)
+        if(result == false) {
+            //调用其他SDK
+        }
+        
+        return result
+    }
+    
+    
+    
 
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

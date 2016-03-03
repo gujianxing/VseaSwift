@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="111" id="KGk-i7-Jjw" customClass="GoodsDetailParameterCell" customModule="VseaSwift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="437" height="111"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="437" height="110"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rw7-E0-LFp">
+                        <rect key="frame" x="63" y="96" width="80" height="14"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="Ofu-TU-1wl"/>
+                            <constraint firstAttribute="height" constant="14" id="v7c-0W-4f0"/>
+                            <constraint firstAttribute="width" constant="80" id="wKY-Io-DRD"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Ofu-TU-1wl"/>
+                            </mask>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S7n-dt-dEP">
+                        <rect key="frame" x="143" y="96" width="42" height="14"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="14" id="LRq-9n-8cp"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dQG-py-BPs">
+                        <rect key="frame" x="50" y="101" width="4" height="4"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="4" id="agY-NI-0p1"/>
+                            <constraint firstAttribute="width" constant="4" id="nzZ-ef-LEB"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="dQG-py-BPs" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="50" id="LyF-hM-Ecv"/>
+                    <constraint firstItem="Rw7-E0-LFp" firstAttribute="centerY" secondItem="dQG-py-BPs" secondAttribute="centerY" id="Tnu-cu-ZcV"/>
+                    <constraint firstItem="Rw7-E0-LFp" firstAttribute="leading" secondItem="dQG-py-BPs" secondAttribute="trailing" constant="9" id="YTg-H0-bvC"/>
+                    <constraint firstItem="S7n-dt-dEP" firstAttribute="leading" secondItem="Rw7-E0-LFp" secondAttribute="trailing" id="f59-RD-xTq"/>
+                    <constraint firstAttribute="trailing" secondItem="S7n-dt-dEP" secondAttribute="trailing" id="fL7-6O-ZpD"/>
+                    <constraint firstAttribute="bottom" secondItem="S7n-dt-dEP" secondAttribute="bottom" id="gma-WT-Xpr"/>
+                    <constraint firstAttribute="bottom" secondItem="Rw7-E0-LFp" secondAttribute="bottom" id="uzh-uk-A8N"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="fL7-6O-ZpD"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="556.5" y="386.5"/>
+        </tableViewCell>
+    </objects>
+</document>

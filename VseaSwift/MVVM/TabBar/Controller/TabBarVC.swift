@@ -15,15 +15,16 @@ class TabBarVC: UITabBarController {
         let homeVC = HomeVC()
         self.addChildViewControllerWithNameAndImage(homeVC, name: "主页", image: UIImage(named: "d")!)
         
-        
+        let det = GoodsDetailVC()
+        self.addChildViewControllerWithNameAndImage(det, name: "详情", image: UIImage(named: "d")!)
     }
     
     
     
     func addChildViewControllerWithNameAndImage(vc:UIViewController, name:String, image:UIImage) {
         let nav = UINavigationController(rootViewController: vc)
-        nav.tabBarItem.title = name
-        nav.tabBarItem.image = image
+        nav.setChildViewControllerWithNameAndImage(name, image: image)
+        
         self.addChildViewController(nav)
     }
 
