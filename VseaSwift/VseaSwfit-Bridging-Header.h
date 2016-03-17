@@ -10,7 +10,7 @@
 #define VseaSwfit_Bridging_Header_h
 
 
-#import "AFURLSessionManager.h"
+#import "AFNetworking.h"
 #import "UIImageView+WebCache.h"
 
 #import "JX_HexToRGB.h"

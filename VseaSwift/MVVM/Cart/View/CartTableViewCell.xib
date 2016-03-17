@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="236" id="KGk-i7-Jjw" customClass="CartTableViewCell" customModule="VseaSwift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="512" height="236"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="512" height="235"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Cart_select" translatesAutoresizingMaskIntoConstraints="NO" id="l3M-tn-rOC">
+                        <rect key="frame" x="15" y="111" width="14" height="14"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZVp-Mm-cNb">
+                        <rect key="frame" x="38" y="19" width="197" height="197"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="ZVp-Mm-cNb" secondAttribute="height" id="qZM-Dl-FrV"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dZB-G3-WBv">
+                        <rect key="frame" x="244" y="19" width="98" height="20"/>
+                        <attributedString key="attributedText">
+                            <fragment content="新款韩版连衣裙">
+                                <attributes>
+                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="14" name="PingFangSC-Thin"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6iW-x1-Ocb">
+                        <rect key="frame" x="244" y="53" width="24" height="17"/>
+                        <attributedString key="attributedText">
+                            <fragment content="尺码">
+                                <attributes>
+                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="12" name="PingFangSC-Thin"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kTC-CS-PF2">
+                        <rect key="frame" x="244" y="114" width="48" height="20"/>
+                        <attributedString key="attributedText">
+                            <fragment content="142342">
+                                <attributes>
+                                    <color key="NSColor" red="1" green="0.27843137254901962" blue="0.19607843137254902" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="14" name="PingFangSC-Thin"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cart_ add_red" translatesAutoresizingMaskIntoConstraints="NO" id="Z65-fF-2aq">
+                        <rect key="frame" x="483" y="117" width="14" height="14"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4II-U8-c6Q">
+                        <rect key="frame" x="447" y="113" width="36" height="23"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="36" id="xo8-BM-NZO"/>
+                        </constraints>
+                        <attributedString key="attributedText">
+                            <fragment content="100">
+                                <attributes>
+                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="16" name="PingFangSC-Thin"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cart_ reduce_gray" translatesAutoresizingMaskIntoConstraints="NO" id="8fg-Rm-D4z">
+                        <rect key="frame" x="433" y="117" width="14" height="14"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="ZVp-Mm-cNb" secondAttribute="bottom" constant="19" id="0IM-G1-GUe"/>
+                    <constraint firstItem="l3M-tn-rOC" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="0sX-1w-9fS"/>
+                    <constraint firstItem="Z65-fF-2aq" firstAttribute="centerY" secondItem="4II-U8-c6Q" secondAttribute="centerY" id="4qw-Nv-LPb"/>
+                    <constraint firstItem="kTC-CS-PF2" firstAttribute="top" secondItem="6iW-x1-Ocb" secondAttribute="bottom" constant="44" id="CIF-Wq-gZE"/>
+                    <constraint firstItem="dZB-G3-WBv" firstAttribute="leading" secondItem="ZVp-Mm-cNb" secondAttribute="trailing" constant="9" id="Ji9-1r-MTH"/>
+                    <constraint firstItem="kTC-CS-PF2" firstAttribute="leading" secondItem="6iW-x1-Ocb" secondAttribute="leading" id="MR5-om-Fgu"/>
+                    <constraint firstItem="l3M-tn-rOC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="Qoo-Zd-bh9"/>
+                    <constraint firstAttribute="trailing" secondItem="Z65-fF-2aq" secondAttribute="trailing" constant="15" id="Uh5-fy-UmD"/>
+                    <constraint firstItem="4II-U8-c6Q" firstAttribute="leading" secondItem="8fg-Rm-D4z" secondAttribute="trailing" id="Vai-ND-R7F"/>
+                    <constraint firstItem="ZVp-Mm-cNb" firstAttribute="leading" secondItem="l3M-tn-rOC" secondAttribute="trailing" constant="9" id="W9h-ef-ZFR"/>
+                    <constraint firstItem="Z65-fF-2aq" firstAttribute="centerY" secondItem="kTC-CS-PF2" secondAttribute="centerY" id="X04-rC-nD5"/>
+                    <constraint firstItem="dZB-G3-WBv" firstAttribute="leading" secondItem="6iW-x1-Ocb" secondAttribute="leading" id="aDI-VH-8qE"/>
+                    <constraint firstItem="6iW-x1-Ocb" firstAttribute="top" secondItem="dZB-G3-WBv" secondAttribute="bottom" constant="14" id="cta-gT-Yls"/>
+                    <constraint firstItem="dZB-G3-WBv" firstAttribute="top" secondItem="ZVp-Mm-cNb" secondAttribute="top" id="d9i-dG-JGY"/>
+                    <constraint firstItem="ZVp-Mm-cNb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="19" id="ehr-Fc-v4R"/>
+                    <constraint firstItem="Z65-fF-2aq" firstAttribute="leading" secondItem="4II-U8-c6Q" secondAttribute="trailing" id="jWT-Xe-i5e"/>
+                    <constraint firstItem="4II-U8-c6Q" firstAttribute="centerY" secondItem="8fg-Rm-D4z" secondAttribute="centerY" id="m1j-Bx-nK2"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="addImage" destination="Z65-fF-2aq" id="aEn-ge-cWI"/>
+                <outlet property="goodsCount" destination="4II-U8-c6Q" id="ezl-HQ-rKg"/>
+                <outlet property="nameLabel" destination="dZB-G3-WBv" id="BRW-yX-MPb"/>
+                <outlet property="parametersLabel" destination="6iW-x1-Ocb" id="7r9-Qs-q3Q"/>
+                <outlet property="picture" destination="ZVp-Mm-cNb" id="11h-Lx-oPn"/>
+                <outlet property="priceLabel" destination="kTC-CS-PF2" id="mX2-V0-MhT"/>
+                <outlet property="reduceImage" destination="8fg-Rm-D4z" id="fgO-ED-nzR"/>
+                <outlet property="selectImage" destination="l3M-tn-rOC" id="k9c-IC-nUz"/>
+            </connections>
+            <point key="canvasLocation" x="665" y="430"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Cart_ add_red" width="14" height="14"/>
+        <image name="Cart_ reduce_gray" width="14" height="14"/>
+        <image name="Cart_select" width="14" height="14"/>
+    </resources>
+</document>

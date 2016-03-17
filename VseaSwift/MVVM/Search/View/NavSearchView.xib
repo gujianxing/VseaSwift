@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="NavSearchView" customModule="VseaSwift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OU0-2U-cgE">
+                    <rect key="frame" x="10" y="0.0" width="32" height="600"/>
+                    <state key="normal">
+                        <attributedString key="attributedTitle">
+                            <fragment content="商品">
+                                <attributes>
+                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="16" name="PingFangSC-Thin"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                    </state>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Search_down" translatesAutoresizingMaskIntoConstraints="NO" id="7CK-iw-foh">
+                    <rect key="frame" x="47" y="299" width="3" height="3"/>
+                </imageView>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="搜索商品" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oo0-aR-ANd">
+                    <rect key="frame" x="55" y="0.0" width="60" height="600"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" returnKeyType="search"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="oo0-aR-ANd" firstAttribute="leading" secondItem="7CK-iw-foh" secondAttribute="trailing" constant="5" id="2ty-Lf-ZK4"/>
+                <constraint firstItem="OU0-2U-cgE" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="CHR-Ss-Vdi"/>
+                <constraint firstItem="7CK-iw-foh" firstAttribute="leading" secondItem="OU0-2U-cgE" secondAttribute="trailing" constant="5" id="Czp-RG-LhS"/>
+                <constraint firstItem="oo0-aR-ANd" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="PeT-co-rXH"/>
+                <constraint firstItem="OU0-2U-cgE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="QkN-xN-kzT"/>
+                <constraint firstAttribute="bottom" secondItem="oo0-aR-ANd" secondAttribute="bottom" id="YlN-ZB-ePY"/>
+                <constraint firstItem="7CK-iw-foh" firstAttribute="centerY" secondItem="OU0-2U-cgE" secondAttribute="centerY" id="kqa-ip-X6G"/>
+                <constraint firstAttribute="bottom" secondItem="OU0-2U-cgE" secondAttribute="bottom" id="mcZ-mi-LA5"/>
+            </constraints>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                    <integer key="value" value="15"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="searchTextField" destination="oo0-aR-ANd" id="yfC-9O-glS"/>
+                <outlet property="titleButton" destination="OU0-2U-cgE" id="2gC-rX-QGr"/>
+            </connections>
+            <point key="canvasLocation" x="225" y="353"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Search_down" width="3" height="3"/>
+    </resources>
+</document>

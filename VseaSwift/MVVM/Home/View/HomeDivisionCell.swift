@@ -26,9 +26,9 @@ class HomeDivisionCell: UITableViewCell {
         
         let arr = modelResult["specList"]
         if let value = arr {
-            for image in self.subviews[0].subviews {
-                let index = self.subviews[0].subviews.indexOf(image)
-                let model = value[index!] as! HomeDivisionModel
+            for image in self.contentView.subviews {
+                let index = self.contentView.subviews.indexOf(image)
+                let model = (value as! NSArray)[index!] as! HomeDivisionModel
                 (image as! UIImageView).sd_setImageWithURL(NSURL(string: model.ad_code!), placeholderImage: nil)
                 let tap = UITapGestureRecognizer(target: self, action: "tapAction:")
                 image.addGestureRecognizer(tap)

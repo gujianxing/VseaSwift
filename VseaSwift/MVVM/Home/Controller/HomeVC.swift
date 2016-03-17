@@ -28,7 +28,7 @@ class HomeVC: UIViewController,UITableViewDelegate,UITableViewDataSource,UIScrol
         self.automaticallyAdjustsScrollViewInsets = false
         UIApplication.sharedApplication().setStatusBarStyle(.LightContent, animated: false)
         self.changeNavigationController()
-        
+
         //weak修饰
         HomeClassViewModel().getDatasourceFromeViewModel { (source) -> Void in
             self.dataSource = source
@@ -45,9 +45,41 @@ class HomeVC: UIViewController,UITableViewDelegate,UITableViewDataSource,UIScrol
             })
         }
         
+
     }
     
+    func actionSheet(actionSheet: UIActionSheet, clickedButtonAtIndex buttonIndex: Int) {
 
+    }
+    
+    func actionSheetCancel(actionSheet: UIActionSheet) {
+        
+    }
+    
+    func imagePickerController(picker: UIImagePickerController, didFinishPickingImage image: UIImage, editingInfo: [String : AnyObject]?) {
+        print("finish")
+    }
+    
+    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
+        print("finish...")
+    }
+    
+    func imagePickerControllerDidCancel(picker: UIImagePickerController) {
+        print("qu")
+    }
+
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        UIApplication.sharedApplication().setStatusBarStyle(.LightContent, animated: false)
+        self.tabBarController?.tabBar.hidden = false
+        self.navigationController?.setHiddenWithTranslucentWithBarTintColorWithTitleColorWithAlphaWithTitle(false, translucent: true, barTintColor: UIColor.whiteColor(), titleColor: UIColor.clearColor(), alpha: 0, title: "首页")
+    }
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillDisappear(animated)
+        UIApplication.sharedApplication().setStatusBarStyle(.Default, animated: false)
+        self.navigationController?.setHiddenWithTranslucentWithBarTintColorWithTitleColorWithAlphaWithTitle(false, translucent: false, barTintColor: UIColor.whiteColor(), titleColor: UIColor.clearColor(), alpha: 1.0, title: "首页")
+    }
+    
     func changeNavigationController() {
         navigationController?.changeHomeProperty()
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(named: "Search_white")?.imageWithRenderingMode(.AlwaysOriginal), style: .Done, target: self, action: "searchAction")
@@ -55,6 +87,8 @@ class HomeVC: UIViewController,UITableViewDelegate,UITableViewDataSource,UIScrol
     }
     func searchAction() {
         print(123)
+        let vc = SearchVC(nibName: "SearchVC", bundle: nil)
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
     func creatMainView() {
@@ -97,16 +131,25 @@ class HomeVC: UIViewController,UITableViewDelegate,UITableViewDataSource,UIScrol
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
  
+        let vc = ResetPasswordVC(nibName: "ResetPasswordVC", bundle: nil)
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
     //MARK:categoryDelegate
     func selectCategoryListItem(indexPath: NSIndexPath) {
         print("分类\(indexPath.row)")
+        
+        let vc = LoginVC(nibName: "LoginVC", bundle: nil)
+        
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     //MARK:divisionDelegate
     func selectItem(tap: UITapGestureRecognizer) {
         print("分区\(tap.view?.tag)")
+        let vc = AddDataVC(nibName: "AddDataVC", bundle: nil)
+        self.navigationController?.pushViewController(vc, animated: true)
     }
+    
  
     //MARK:scrollerView
     func scrollViewDidScroll(scrollView: UIScrollView) {
@@ -160,14 +203,7 @@ class HomeVC: UIViewController,UITableViewDelegate,UITableViewDataSource,UIScrol
 
     //MARK:UM
     
-    //        //登录
-    //        let platform = UMSocialSnsPlatformManager.getSocialPlatformWithName(UMShareToWechatSession)
-    //        platform.loginClickHandler(self,UMSocialControllerService.defaultControllerService(),true) {(response)-> Void in
-    //            if(response.responseCode == UMSResponseCodeSuccess) {
-    //                let snsAccount = UMSocialAccountManager.socialAccountDictionary()[UMShareToWechatSession]
-    //                print("username is \(snsAccount?.userName), uid is \(snsAccount?.usid), token is \(snsAccount?.accessToken) url is \(snsAccount?.iconURL)")
-    //            }
-    //        }
+
     //
     //        //分享
     //        UMSocialSnsService.presentSnsIconSheetView(self, appKey: "55ff995867e58e4fd20003e1", shareText: "哈哈", shareImage: UIImage(named: "d"), shareToSnsNames: [UMShareToTencent,UMShareToWechatTimeline,UMShareToWechatSession,UMShareToQzone,UMShareToQQ], delegate: self)

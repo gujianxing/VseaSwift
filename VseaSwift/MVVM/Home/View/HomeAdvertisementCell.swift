@@ -20,7 +20,7 @@ class HomeAdvertisementCell: UITableViewCell {
             let arr = modelResult["brandList"]
             if let value = arr {
                 if value.count > indexPath.row - 1 {
-                    let model = value[indexPath.row - 1] as! HomeDivisionModel
+                    let model = (value as! NSArray)[indexPath.row - 1] as! HomeDivisionModel
                     self.picture.sd_setImageWithURL(NSURL(string: model.ad_code!), placeholderImage: nil)
                 }
             }else {
@@ -30,7 +30,7 @@ class HomeAdvertisementCell: UITableViewCell {
             let arr = modelResult["actList"]
             if let value = arr {
                 if value.count > indexPath.row - 1 {
-                    let model = value[indexPath.row - 1] as! HomeDivisionModel
+                    let model = (value as! NSArray)[indexPath.row - 1] as! HomeDivisionModel
                     self.picture.sd_setImageWithURL(NSURL(string: model.ad_code!), placeholderImage: nil)
                 }
             }else {

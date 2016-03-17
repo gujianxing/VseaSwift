@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="SearchGoodsCell" customModule="VseaSwift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="409" height="283"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="409" height="283"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jOY-vE-ybI">
+                        <rect key="frame" x="0.0" y="0.0" width="409" height="180"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="180" id="uPp-H1-Zdl"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s8l-EJ-PwH">
+                        <rect key="frame" x="5" y="198" width="394" height="20"/>
+                        <attributedString key="attributedText">
+                            <fragment content="地址">
+                                <attributes>
+                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="14" name="PingFangSC-Thin"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iib-Qa-gQ3">
+                        <rect key="frame" x="5" y="232" width="44" height="26"/>
+                        <attributedString key="attributedText">
+                            <fragment content="9854">
+                                <attributes>
+                                    <color key="NSColor" red="1" green="0.27843137254901962" blue="0.19607843137254902" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="18" name="PingFangSC-Thin"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gbE-3N-7dr">
+                        <rect key="frame" x="343" y="237" width="56" height="17"/>
+                        <attributedString key="attributedText">
+                            <fragment content="199人关注">
+                                <attributes>
+                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="12" name="PingFangSC-Thin"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="68V-wo-1O4">
+                        <rect key="frame" x="305" y="235" width="28" height="20"/>
+                        <attributedString key="attributedText">
+                            <fragment content="宁波">
+                                <attributes>
+                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="14" name="PingFangSC-Thin"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="iib-Qa-gQ3" firstAttribute="top" secondItem="s8l-EJ-PwH" secondAttribute="bottom" constant="14" id="0PO-8M-l6Z"/>
+                <constraint firstAttribute="trailing" secondItem="s8l-EJ-PwH" secondAttribute="trailing" constant="10" id="1FH-l6-SVv"/>
+                <constraint firstAttribute="trailing" secondItem="gbE-3N-7dr" secondAttribute="trailing" constant="10" id="2aw-Da-ftq"/>
+                <constraint firstItem="68V-wo-1O4" firstAttribute="centerY" secondItem="iib-Qa-gQ3" secondAttribute="centerY" id="7C3-vg-Eto"/>
+                <constraint firstItem="iib-Qa-gQ3" firstAttribute="leading" secondItem="s8l-EJ-PwH" secondAttribute="leading" id="8ha-bw-WE2"/>
+                <constraint firstAttribute="trailing" secondItem="jOY-vE-ybI" secondAttribute="trailing" id="Dad-bb-TFQ"/>
+                <constraint firstItem="s8l-EJ-PwH" firstAttribute="top" secondItem="jOY-vE-ybI" secondAttribute="bottom" constant="18" id="JId-bh-9UG"/>
+                <constraint firstItem="jOY-vE-ybI" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="ODJ-Pg-Iab"/>
+                <constraint firstItem="gbE-3N-7dr" firstAttribute="centerY" secondItem="iib-Qa-gQ3" secondAttribute="centerY" id="Ozm-Yy-4Tk"/>
+                <constraint firstItem="jOY-vE-ybI" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="h6N-ir-cNi"/>
+                <constraint firstItem="gbE-3N-7dr" firstAttribute="leading" secondItem="68V-wo-1O4" secondAttribute="trailing" constant="10" id="p7T-Nz-RZi"/>
+                <constraint firstItem="s8l-EJ-PwH" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="yM8-Em-wii"/>
+            </constraints>
+            <size key="customSize" width="409" height="283"/>
+            <connections>
+                <outlet property="addressLabel" destination="68V-wo-1O4" id="jG0-MY-CtR"/>
+                <outlet property="countLabel" destination="gbE-3N-7dr" id="Alg-fV-vhC"/>
+                <outlet property="picture" destination="jOY-vE-ybI" id="3QE-aM-TIy"/>
+                <outlet property="priceLabel" destination="iib-Qa-gQ3" id="1XQ-WU-uB9"/>
+                <outlet property="titleLabel" destination="s8l-EJ-PwH" id="Oqj-ws-Ekg"/>
+            </connections>
+            <point key="canvasLocation" x="246.5" y="246.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

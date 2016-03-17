@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="101" id="KGk-i7-Jjw" customClass="WithdrawTableViewCell" customModule="VseaSwift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="381" height="101"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="381" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mf0-Ux-PmY">
+                        <rect key="frame" x="21" y="37" width="90" height="26"/>
+                        <attributedString key="attributedText">
+                            <fragment content="支付宝提现">
+                                <attributes>
+                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="18" name="PingFangSC-Thin"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Withdraw_unselect" translatesAutoresizingMaskIntoConstraints="NO" id="Yfn-wD-prz">
+                        <rect key="frame" x="338" y="39" width="22" height="22"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Mf0-Ux-PmY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="21" id="EJS-va-4qR"/>
+                    <constraint firstItem="Mf0-Ux-PmY" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="M84-mJ-OFC"/>
+                    <constraint firstItem="Yfn-wD-prz" firstAttribute="centerY" secondItem="Mf0-Ux-PmY" secondAttribute="centerY" id="uHw-Ja-xiP"/>
+                    <constraint firstAttribute="trailing" secondItem="Yfn-wD-prz" secondAttribute="trailing" constant="21" id="wUP-pK-OWk"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="picture" destination="Yfn-wD-prz" id="F0l-YO-UoG"/>
+                <outlet property="title" destination="Mf0-Ux-PmY" id="QPe-Fg-Lnp"/>
+            </connections>
+            <point key="canvasLocation" x="523.5" y="434.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Withdraw_unselect" width="22" height="22"/>
+    </resources>
+</document>

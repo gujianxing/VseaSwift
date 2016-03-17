@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="WithdrawCellHeaderView" customModule="VseaSwift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="86j-kg-skl">
+                    <rect key="frame" x="21" y="0.0" width="90" height="600"/>
+                    <attributedString key="attributedText">
+                        <fragment content="支付宝提现">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="18" name="PingFangSC-Thin"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4fQ-3A-gVy">
+                    <rect key="frame" x="21" y="600" width="579" height="0.0"/>
+                    <color key="backgroundColor" red="0.87450980392156863" green="0.87450980392156863" blue="0.87450980392156863" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" id="Rr4-Ri-MDC"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mine_arrow" translatesAutoresizingMaskIntoConstraints="NO" id="s8v-AK-v04">
+                    <rect key="frame" x="572" y="295" width="7" height="11"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="s8v-AK-v04" firstAttribute="centerY" secondItem="86j-kg-skl" secondAttribute="centerY" id="FKv-yx-tzM"/>
+                <constraint firstAttribute="trailing" secondItem="4fQ-3A-gVy" secondAttribute="trailing" id="S6h-NX-AjN"/>
+                <constraint firstAttribute="bottom" secondItem="4fQ-3A-gVy" secondAttribute="bottom" id="VtH-fw-6Eq"/>
+                <constraint firstAttribute="bottom" secondItem="86j-kg-skl" secondAttribute="bottom" id="XlL-9R-4pS"/>
+                <constraint firstAttribute="trailing" secondItem="s8v-AK-v04" secondAttribute="trailing" constant="21" id="YDq-rO-agS"/>
+                <constraint firstItem="86j-kg-skl" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="acj-gP-1D8"/>
+                <constraint firstItem="86j-kg-skl" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="21" id="iJ9-G9-UtQ"/>
+                <constraint firstItem="4fQ-3A-gVy" firstAttribute="leading" secondItem="86j-kg-skl" secondAttribute="leading" id="vrA-B4-GBs"/>
+            </constraints>
+            <connections>
+                <outlet property="title" destination="86j-kg-skl" id="6Mv-Bo-g9e"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="Mine_arrow" width="7" height="11"/>
+    </resources>
+</document>

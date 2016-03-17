@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CartCellHeader" customModule="VseaSwift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cart_select" translatesAutoresizingMaskIntoConstraints="NO" id="WKe-X8-NqJ">
+                    <rect key="frame" x="15" y="293" width="14" height="14"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cart_home" translatesAutoresizingMaskIntoConstraints="NO" id="2CT-IW-XyO">
+                    <rect key="frame" x="39" y="295" width="11" height="10"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qmT-wO-Byl">
+                    <rect key="frame" x="65" y="290" width="112" height="20"/>
+                    <attributedString key="attributedText">
+                        <fragment content="美宜家官方旗舰店">
+                            <attributes>
+                                <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="14" name="PingFangSC-Thin"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="qmT-wO-Byl" firstAttribute="leading" secondItem="2CT-IW-XyO" secondAttribute="trailing" constant="15" id="3gw-30-e9Q"/>
+                <constraint firstItem="WKe-X8-NqJ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="aFc-ax-EDz"/>
+                <constraint firstItem="qmT-wO-Byl" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="bcW-jR-2eH"/>
+                <constraint firstItem="2CT-IW-XyO" firstAttribute="leading" secondItem="WKe-X8-NqJ" secondAttribute="trailing" constant="10" id="g8L-nU-nht"/>
+                <constraint firstItem="WKe-X8-NqJ" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="hBY-Ww-T3I"/>
+                <constraint firstItem="2CT-IW-XyO" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="wSb-Sz-oVk"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="Cart_home" width="11" height="10"/>
+        <image name="Cart_select" width="14" height="14"/>
+    </resources>
+</document>

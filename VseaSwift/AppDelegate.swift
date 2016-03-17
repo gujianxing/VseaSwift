@@ -10,6 +10,33 @@ import UIKit
 let WIDTH = UIScreen.mainScreen().bounds.size.width
 let HEIGHT = UIScreen.mainScreen().bounds.size.height
 let BOUNDS = UIScreen.mainScreen().bounds
+let LOGIN = "http://api.vseatest.com/V2/login/memberlogin?" //登录
+let QQLOGIN = "http://api.vsea.com.cn/User/user_bindfind"  //qq登录
+let SMS_CODE = "http://api.vseatest.com/login/sms_code/?"  //短信验证码
+let UPlOADPHOTO = "http://api.vseatest.com/User/uploadAppPortrait"  //上传图片
+let REGISTER = "http://api.vseatest.com/V2/login/RegisterMember/"  //注册
+let MINE = "http://api.vsea.com.cn/User/get_user_info" //获取个人信息
+
+
+
+let SEARCHGOODS = "http://api.vsea.com.cn/Goods/get_list" //搜索商品
+let SEARCHSHOP = "http://api.vsea.com.cn/BrandElevent/seek?"  //搜索店铺
+
+let CART = "http://api.vsea.com.cn/Cart/get_cart_list?user_id=" //购物车列表
+
+
+let USER = "/User/get_user_info?user_id=166&istown=1" //获取个人信息
+
+
+
+let GETWITHDRAWNAME = "http://api.vsea.com.cn/Cash/get_user_bank?"  //获取用户账号(银行卡，支付宝)列表
+
+let ADDADDRESS = "http://api.vsea.com.cn/User/add_address"   //添加收货地址
+let EDITADDRESS = "http://api.vsea.com.cn/User/edit_address"  //修改收货地址
+let DELETEADDRESS = "http://api.vsea.com.cn/User/del_address?"   //删除收货地址
+
+
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -20,7 +47,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         let tabbarVC = TabBarVC()
         self.window = UIWindow(frame: CGRectMake(0, 0, WIDTH, HEIGHT))
-        self.window?.rootViewController = tabbarVC
+        let nav = UINavigationController(rootViewController: tabbarVC)
+//        nav.navigationBar.hidden = true
+        self.window?.rootViewController = nav
         self.window?.makeKeyAndVisible()
         
         //JPush,,支付宝微信支付,

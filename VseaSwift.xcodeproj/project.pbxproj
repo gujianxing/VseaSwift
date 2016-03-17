@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		4ED9025E863CCE7E0BDE078A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27807B879CA305BFB5553013 /* libPods.a */; };
+		F60F2BAF1C8E9A4D00440FE7 /* ResetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60F2BAD1C8E9A4D00440FE7 /* ResetPasswordVC.swift */; };
+		F60F2BB01C8E9A4D00440FE7 /* ResetPasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F60F2BAE1C8E9A4D00440FE7 /* ResetPasswordVC.xib */; };
+		F61A01D41C91574500C38545 /* HometownVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61A01D21C91574500C38545 /* HometownVC.swift */; };
+		F61A01D51C91574500C38545 /* HometownVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F61A01D31C91574500C38545 /* HometownVC.xib */; };
+		F61A01DE1C91585300C38545 /* ClassVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61A01DC1C91585300C38545 /* ClassVC.swift */; };
+		F61A01DF1C91585300C38545 /* ClassVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F61A01DD1C91585300C38545 /* ClassVC.xib */; };
 		F620BEE61C87DF3D00A498F4 /* UITableViewCell+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = F620BEE51C87DF3D00A498F4 /* UITableViewCell+Category.swift */; };
 		F620BEE81C880ECB00A498F4 /* libJX_HexToRGB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F620BEE71C880ECB00A498F4 /* libJX_HexToRGB.a */; };
 		F627D1BD1C868E55003E73CA /* HomeClassViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F627D1BC1C868E55003E73CA /* HomeClassViewModel.swift */; };
@@ -25,11 +31,105 @@
 		F627D1FB1C86FB45003E73CA /* GoodsDetailFooterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F627D1FA1C86FB45003E73CA /* GoodsDetailFooterCell.swift */; };
 		F627D1FD1C86FB60003E73CA /* GoodsDetailNameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F627D1FC1C86FB60003E73CA /* GoodsDetailNameCell.swift */; };
 		F627D1FF1C86FB6F003E73CA /* GoodsDetailParameterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F627D1FE1C86FB6F003E73CA /* GoodsDetailParameterCell.swift */; };
+		F63434041C979BE800E56A50 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63434021C979BE800E56A50 /* SearchVC.swift */; };
+		F63434051C979BE800E56A50 /* SearchVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F63434031C979BE800E56A50 /* SearchVC.xib */; };
+		F634340F1C97BB8C00E56A50 /* searchGoodsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F634340E1C97BB8C00E56A50 /* searchGoodsModel.swift */; };
+		F63434111C97BB9A00E56A50 /* searchShopModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63434101C97BB9A00E56A50 /* searchShopModel.swift */; };
+		F63434141C97E62600E56A50 /* SearchGoodsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63434121C97E62600E56A50 /* SearchGoodsCell.swift */; };
+		F63434151C97E62600E56A50 /* SearchGoodsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F63434131C97E62600E56A50 /* SearchGoodsCell.xib */; };
+		F63434181C97E64200E56A50 /* SearchShopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63434161C97E64200E56A50 /* SearchShopCell.swift */; };
+		F63434191C97E64200E56A50 /* SearchShopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F63434171C97E64200E56A50 /* SearchShopCell.xib */; };
+		F63434201C98030000E56A50 /* SearchGoodsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F634341E1C98030000E56A50 /* SearchGoodsHeader.swift */; };
+		F63434211C98030000E56A50 /* SearchGoodsHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = F634341F1C98030000E56A50 /* SearchGoodsHeader.xib */; };
+		F63434231C9806B700E56A50 /* NavSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63434221C9806B700E56A50 /* NavSearchView.swift */; };
+		F63434251C9806CA00E56A50 /* NavSearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F63434241C9806CA00E56A50 /* NavSearchView.xib */; };
+		F63434271C98309100E56A50 /* MineDetailRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63434261C98309100E56A50 /* MineDetailRequest.swift */; };
+		F64B59D61C8D4CB7001505A6 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64B59D41C8D4CB7001505A6 /* RegisterVC.swift */; };
+		F64B59D71C8D4CB7001505A6 /* RegisterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F64B59D51C8D4CB7001505A6 /* RegisterVC.xib */; };
+		F64B59E01C8D6F56001505A6 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64B59DE1C8D6F56001505A6 /* LoginVC.swift */; };
+		F64B59E11C8D6F56001505A6 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F64B59DF1C8D6F56001505A6 /* LoginVC.xib */; };
+		F64B59EA1C8D96F8001505A6 /* AddDataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64B59E81C8D96F8001505A6 /* AddDataVC.swift */; };
+		F64B59EB1C8D96F8001505A6 /* AddDataVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F64B59E91C8D96F8001505A6 /* AddDataVC.xib */; };
+		F64E8F291C96403900FA6CEA /* MyWalletVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64E8F271C96403900FA6CEA /* MyWalletVC.swift */; };
+		F64E8F2A1C96403900FA6CEA /* MyWalletVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F64E8F281C96403900FA6CEA /* MyWalletVC.xib */; };
+		F64E8F2D1C96433800FA6CEA /* FundsDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64E8F2B1C96433800FA6CEA /* FundsDetailVC.swift */; };
+		F64E8F2E1C96433800FA6CEA /* FundsDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F64E8F2C1C96433800FA6CEA /* FundsDetailVC.xib */; };
+		F64E8F311C96437800FA6CEA /* FundsDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64E8F2F1C96437800FA6CEA /* FundsDetailTableViewCell.swift */; };
+		F64E8F321C96437800FA6CEA /* FundsDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F64E8F301C96437800FA6CEA /* FundsDetailTableViewCell.xib */; };
+		F64E8F421C96479A00FA6CEA /* MineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64E8F361C96479A00FA6CEA /* MineVC.swift */; };
+		F64E8F431C96479A00FA6CEA /* MineView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F64E8F371C96479A00FA6CEA /* MineView.xib */; };
+		F64E8F461C9647CD00FA6CEA /* MineDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64E8F441C9647CD00FA6CEA /* MineDetailVC.swift */; };
+		F64E8F471C9647CD00FA6CEA /* MineDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F64E8F451C9647CD00FA6CEA /* MineDetailVC.xib */; };
+		F66F9AD41C92ACE600250C1E /* Address.json in Resources */ = {isa = PBXBuildFile; fileRef = F66F9AD21C92ACE600250C1E /* Address.json */; };
+		F66F9AD51C92ACE600250C1E /* Address.plist in Resources */ = {isa = PBXBuildFile; fileRef = F66F9AD31C92ACE600250C1E /* Address.plist */; };
 		F68C191C1C866AAB0017E9B1 /* HomeMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C191B1C866AAB0017E9B1 /* HomeMainView.swift */; };
+		F69DB44C1C965F2200F2CDEE /* WithdrawVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69DB4301C965F2200F2CDEE /* WithdrawVC.swift */; };
+		F69DB44D1C965F2200F2CDEE /* WithdrawVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F69DB4311C965F2200F2CDEE /* WithdrawVC.xib */; };
+		F69DB44E1C965F2200F2CDEE /* WithdrawChooseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69DB4381C965F2200F2CDEE /* WithdrawChooseVC.swift */; };
+		F69DB44F1C965F2200F2CDEE /* WithdrawChooseVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F69DB4391C965F2200F2CDEE /* WithdrawChooseVC.xib */; };
+		F69DB4501C965F2200F2CDEE /* WithdrawCellFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69DB43D1C965F2200F2CDEE /* WithdrawCellFooterView.swift */; };
+		F69DB4511C965F2200F2CDEE /* WithdrawCellFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F69DB43E1C965F2200F2CDEE /* WithdrawCellFooterView.xib */; };
+		F69DB4521C965F2200F2CDEE /* WithdrawCellHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69DB43F1C965F2200F2CDEE /* WithdrawCellHeaderView.swift */; };
+		F69DB4531C965F2200F2CDEE /* WithdrawCellHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F69DB4401C965F2200F2CDEE /* WithdrawCellHeaderView.xib */; };
+		F69DB4541C965F2200F2CDEE /* WithdrawTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69DB4411C965F2200F2CDEE /* WithdrawTableViewCell.swift */; };
+		F69DB4551C965F2200F2CDEE /* WithdrawTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F69DB4421C965F2200F2CDEE /* WithdrawTableViewCell.xib */; };
+		F69DB4561C965F2200F2CDEE /* WithdrawSucceedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69DB4461C965F2200F2CDEE /* WithdrawSucceedVC.swift */; };
+		F69DB4571C965F2200F2CDEE /* WithdrawSucceedVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F69DB4471C965F2200F2CDEE /* WithdrawSucceedVC.xib */; };
+		F69DB4731C96617000F2CDEE /* ShippingAddressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69DB45B1C96617000F2CDEE /* ShippingAddressVC.swift */; };
+		F69DB4741C96617000F2CDEE /* ShippingAddressVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F69DB45C1C96617000F2CDEE /* ShippingAddressVC.xib */; };
+		F69DB4751C96617000F2CDEE /* ShippingAddressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69DB4601C96617000F2CDEE /* ShippingAddressTableViewCell.swift */; };
+		F69DB4761C96617000F2CDEE /* ShippingAddressTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F69DB4611C96617000F2CDEE /* ShippingAddressTableViewCell.xib */; };
+		F69DB4771C96617000F2CDEE /* ShippingAddressAddVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69DB4651C96617000F2CDEE /* ShippingAddressAddVC.swift */; };
+		F69DB4781C96617000F2CDEE /* ShippingAddressAddVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F69DB4661C96617000F2CDEE /* ShippingAddressAddVC.xib */; };
+		F69DB4791C96617000F2CDEE /* ShippingAddressEditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69DB46D1C96617000F2CDEE /* ShippingAddressEditVC.swift */; };
+		F69DB47A1C96617000F2CDEE /* ShippingAddressEditVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F69DB46E1C96617000F2CDEE /* ShippingAddressEditVC.xib */; };
+		F69DB47C1C96635500F2CDEE /* LoginVCRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69DB47B1C96635500F2CDEE /* LoginVCRequest.swift */; };
+		F69DB47E1C96765200F2CDEE /* RegisterRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69DB47D1C96765200F2CDEE /* RegisterRequest.swift */; };
+		F69DB4801C969D5500F2CDEE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F69DB47F1C969D5500F2CDEE /* AVFoundation.framework */; };
+		F69DB4821C96A4AF00F2CDEE /* AddDataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69DB4811C96A4AF00F2CDEE /* AddDataRequest.swift */; };
+		F6A000791C98E552007B49B9 /* MineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A000781C98E552007B49B9 /* MineView.swift */; };
 		F6A50B2B1C84129800396835 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A50B251C84129800396835 /* TabBarVC.swift */; };
 		F6A50B2D1C84133300396835 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A50B2C1C84133300396835 /* HomeVC.swift */; };
 		F6A50B2F1C8413CD00396835 /* d.png in Resources */ = {isa = PBXBuildFile; fileRef = F6A50B2E1C8413CD00396835 /* d.png */; };
 		F6A50B321C8417A700396835 /* HomeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A50B311C8417A700396835 /* HomeRequest.swift */; };
+		F6CBFD281C9A69370004376B /* SearchBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CBFD271C9A69370004376B /* SearchBackView.swift */; };
+		F6CBFD2A1C9A694B0004376B /* SearchBackView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6CBFD291C9A694B0004376B /* SearchBackView.xib */; };
+		F6E25F381C992B7900ACEEB1 /* ShippingAddressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E25F371C992B7900ACEEB1 /* ShippingAddressModel.swift */; };
+		F6E25F411C997F9600ACEEB1 /* CartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E25F3B1C997F9600ACEEB1 /* CartVC.swift */; };
+		F6E25F421C997F9600ACEEB1 /* CartVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6E25F3C1C997F9600ACEEB1 /* CartVC.xib */; };
+		F6E25F451C9982F800ACEEB1 /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E25F431C9982F800ACEEB1 /* CartTableViewCell.swift */; };
+		F6E25F461C9982F800ACEEB1 /* CartTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6E25F441C9982F800ACEEB1 /* CartTableViewCell.xib */; };
+		F6E25F481C99831200ACEEB1 /* CartCellHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E25F471C99831200ACEEB1 /* CartCellHeader.swift */; };
+		F6E25F4A1C99832100ACEEB1 /* CartCellFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E25F491C99832100ACEEB1 /* CartCellFooter.swift */; };
+		F6E25F4C1C99832B00ACEEB1 /* CartCellHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6E25F4B1C99832B00ACEEB1 /* CartCellHeader.xib */; };
+		F6E25F4E1C99835600ACEEB1 /* CartCellFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6E25F4D1C99835600ACEEB1 /* CartCellFooter.xib */; };
+		F6E25F501C99933600ACEEB1 /* CartShopModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E25F4F1C99933600ACEEB1 /* CartShopModel.swift */; };
+		F6E25F521C99936E00ACEEB1 /* CartGoodsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E25F511C99936E00ACEEB1 /* CartGoodsModel.swift */; };
+		F6E4A9531C93A31A00C560F3 /* RechargeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E4A9511C93A31A00C560F3 /* RechargeVC.swift */; };
+		F6E4A9541C93A31A00C560F3 /* RechargeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6E4A9521C93A31A00C560F3 /* RechargeVC.xib */; };
+		F6E4A9561C93A3C700C560F3 /* NavigationItem+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E4A9551C93A3C700C560F3 /* NavigationItem+Category.swift */; };
+		F6E4A9631C93A9BC00C560F3 /* RechargeSucceedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E4A9611C93A9BC00C560F3 /* RechargeSucceedVC.swift */; };
+		F6E4A9641C93A9BC00C560F3 /* RechargeSucceedVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6E4A9621C93A9BC00C560F3 /* RechargeSucceedVC.xib */; };
+		F6E4A9831C93B59700C560F3 /* BankCardvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E4A9811C93B59700C560F3 /* BankCardvc.swift */; };
+		F6E4A9841C93B59700C560F3 /* BankCardvc.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6E4A9821C93B59700C560F3 /* BankCardvc.xib */; };
+		F6E4A9971C93BC9700C560F3 /* BankCardAddVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E4A9951C93BC9700C560F3 /* BankCardAddVC.swift */; };
+		F6E4A9981C93BC9700C560F3 /* BankCardAddVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6E4A9961C93BC9700C560F3 /* BankCardAddVC.xib */; };
+		F6E4A9CA1C941A2C00C560F3 /* AliPayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E4A9C81C941A2C00C560F3 /* AliPayVC.swift */; };
+		F6E4A9CB1C941A2C00C560F3 /* AliPayVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6E4A9C91C941A2C00C560F3 /* AliPayVC.xib */; };
+		F6E4A9CE1C941A4300C560F3 /* AliPayAddVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E4A9CC1C941A4300C560F3 /* AliPayAddVC.swift */; };
+		F6E4A9CF1C941A4300C560F3 /* AliPayAddVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6E4A9CD1C941A4300C560F3 /* AliPayAddVC.xib */; };
+		F6E4A9D21C941C1100C560F3 /* BankCardDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E4A9D01C941C1100C560F3 /* BankCardDetailCell.swift */; };
+		F6E4A9D31C941C1100C560F3 /* BankCardDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6E4A9D11C941C1100C560F3 /* BankCardDetailCell.xib */; };
+		F6E4A9D61C941C1F00C560F3 /* BankCardAddCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E4A9D41C941C1F00C560F3 /* BankCardAddCell.swift */; };
+		F6E4A9D71C941C1F00C560F3 /* BankCardAddCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6E4A9D51C941C1F00C560F3 /* BankCardAddCell.xib */; };
+		F6E4A9DA1C941F0C00C560F3 /* AliPayDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E4A9D81C941F0C00C560F3 /* AliPayDetailCell.swift */; };
+		F6E4A9DB1C941F0C00C560F3 /* AliPayDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6E4A9D91C941F0C00C560F3 /* AliPayDetailCell.xib */; };
+		F6E4A9DE1C941F1C00C560F3 /* AliPayAddCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E4A9DC1C941F1C00C560F3 /* AliPayAddCell.swift */; };
+		F6E4A9DF1C941F1C00C560F3 /* AliPayAddCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6E4A9DD1C941F1C00C560F3 /* AliPayAddCell.xib */; };
+		F6E57F931C9A359E00EAB8A2 /* SearchRecordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E57F911C9A359E00EAB8A2 /* SearchRecordCell.swift */; };
+		F6E57F941C9A359E00EAB8A2 /* SearchRecordCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6E57F921C9A359E00EAB8A2 /* SearchRecordCell.xib */; };
+		F6E57F971C9A3C7100EAB8A2 /* SearchRecordFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E57F951C9A3C7100EAB8A2 /* SearchRecordFooter.swift */; };
+		F6E57F981C9A3C7100EAB8A2 /* SearchRecordFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6E57F961C9A3C7100EAB8A2 /* SearchRecordFooter.xib */; };
 		F6F059811C858999005F84E9 /* HomeClassCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F0597F1C858999005F84E9 /* HomeClassCell.swift */; };
 		F6F059821C858999005F84E9 /* HomeClassCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6F059801C858999005F84E9 /* HomeClassCell.xib */; };
 		F6F059861C858A57005F84E9 /* HomeClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F059851C858A57005F84E9 /* HomeClassView.swift */; };
@@ -72,6 +172,12 @@
 		27807B879CA305BFB5553013 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		833DE6115FD9F69E57AE723F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		B4373E0FDFFC1A9B03A305A5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F60F2BAD1C8E9A4D00440FE7 /* ResetPasswordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordVC.swift; sourceTree = "<group>"; };
+		F60F2BAE1C8E9A4D00440FE7 /* ResetPasswordVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResetPasswordVC.xib; sourceTree = "<group>"; };
+		F61A01D21C91574500C38545 /* HometownVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HometownVC.swift; sourceTree = "<group>"; };
+		F61A01D31C91574500C38545 /* HometownVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HometownVC.xib; sourceTree = "<group>"; };
+		F61A01DC1C91585300C38545 /* ClassVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassVC.swift; sourceTree = "<group>"; };
+		F61A01DD1C91585300C38545 /* ClassVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClassVC.xib; sourceTree = "<group>"; };
 		F620BEE51C87DF3D00A498F4 /* UITableViewCell+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Category.swift"; sourceTree = "<group>"; };
 		F620BEE71C880ECB00A498F4 /* libJX_HexToRGB.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libJX_HexToRGB.a; sourceTree = "<group>"; };
 		F627D1BC1C868E55003E73CA /* HomeClassViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeClassViewModel.swift; sourceTree = "<group>"; };
@@ -90,12 +196,106 @@
 		F627D1FA1C86FB45003E73CA /* GoodsDetailFooterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodsDetailFooterCell.swift; sourceTree = "<group>"; };
 		F627D1FC1C86FB60003E73CA /* GoodsDetailNameCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodsDetailNameCell.swift; sourceTree = "<group>"; };
 		F627D1FE1C86FB6F003E73CA /* GoodsDetailParameterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodsDetailParameterCell.swift; sourceTree = "<group>"; };
+		F63434021C979BE800E56A50 /* SearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		F63434031C979BE800E56A50 /* SearchVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchVC.xib; sourceTree = "<group>"; };
+		F634340E1C97BB8C00E56A50 /* searchGoodsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = searchGoodsModel.swift; sourceTree = "<group>"; };
+		F63434101C97BB9A00E56A50 /* searchShopModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = searchShopModel.swift; sourceTree = "<group>"; };
+		F63434121C97E62600E56A50 /* SearchGoodsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchGoodsCell.swift; sourceTree = "<group>"; };
+		F63434131C97E62600E56A50 /* SearchGoodsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchGoodsCell.xib; sourceTree = "<group>"; };
+		F63434161C97E64200E56A50 /* SearchShopCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchShopCell.swift; sourceTree = "<group>"; };
+		F63434171C97E64200E56A50 /* SearchShopCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchShopCell.xib; sourceTree = "<group>"; };
+		F634341E1C98030000E56A50 /* SearchGoodsHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchGoodsHeader.swift; sourceTree = "<group>"; };
+		F634341F1C98030000E56A50 /* SearchGoodsHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchGoodsHeader.xib; sourceTree = "<group>"; };
+		F63434221C9806B700E56A50 /* NavSearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavSearchView.swift; sourceTree = "<group>"; };
+		F63434241C9806CA00E56A50 /* NavSearchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavSearchView.xib; sourceTree = "<group>"; };
+		F63434261C98309100E56A50 /* MineDetailRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineDetailRequest.swift; sourceTree = "<group>"; };
+		F64B59D41C8D4CB7001505A6 /* RegisterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		F64B59D51C8D4CB7001505A6 /* RegisterVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterVC.xib; sourceTree = "<group>"; };
+		F64B59DE1C8D6F56001505A6 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		F64B59DF1C8D6F56001505A6 /* LoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		F64B59E81C8D96F8001505A6 /* AddDataVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDataVC.swift; sourceTree = "<group>"; };
+		F64B59E91C8D96F8001505A6 /* AddDataVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddDataVC.xib; sourceTree = "<group>"; };
+		F64E8F271C96403900FA6CEA /* MyWalletVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyWalletVC.swift; sourceTree = "<group>"; };
+		F64E8F281C96403900FA6CEA /* MyWalletVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyWalletVC.xib; sourceTree = "<group>"; };
+		F64E8F2B1C96433800FA6CEA /* FundsDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FundsDetailVC.swift; sourceTree = "<group>"; };
+		F64E8F2C1C96433800FA6CEA /* FundsDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FundsDetailVC.xib; sourceTree = "<group>"; };
+		F64E8F2F1C96437800FA6CEA /* FundsDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FundsDetailTableViewCell.swift; sourceTree = "<group>"; };
+		F64E8F301C96437800FA6CEA /* FundsDetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FundsDetailTableViewCell.xib; sourceTree = "<group>"; };
+		F64E8F361C96479A00FA6CEA /* MineVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineVC.swift; sourceTree = "<group>"; };
+		F64E8F371C96479A00FA6CEA /* MineView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MineView.xib; sourceTree = "<group>"; };
+		F64E8F441C9647CD00FA6CEA /* MineDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineDetailVC.swift; sourceTree = "<group>"; };
+		F64E8F451C9647CD00FA6CEA /* MineDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MineDetailVC.xib; sourceTree = "<group>"; };
+		F66F9AD21C92ACE600250C1E /* Address.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Address.json; sourceTree = "<group>"; };
+		F66F9AD31C92ACE600250C1E /* Address.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Address.plist; sourceTree = "<group>"; };
 		F68C191B1C866AAB0017E9B1 /* HomeMainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeMainView.swift; sourceTree = "<group>"; };
+		F69DB4301C965F2200F2CDEE /* WithdrawVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WithdrawVC.swift; sourceTree = "<group>"; };
+		F69DB4311C965F2200F2CDEE /* WithdrawVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WithdrawVC.xib; sourceTree = "<group>"; };
+		F69DB4381C965F2200F2CDEE /* WithdrawChooseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WithdrawChooseVC.swift; sourceTree = "<group>"; };
+		F69DB4391C965F2200F2CDEE /* WithdrawChooseVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WithdrawChooseVC.xib; sourceTree = "<group>"; };
+		F69DB43D1C965F2200F2CDEE /* WithdrawCellFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WithdrawCellFooterView.swift; sourceTree = "<group>"; };
+		F69DB43E1C965F2200F2CDEE /* WithdrawCellFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WithdrawCellFooterView.xib; sourceTree = "<group>"; };
+		F69DB43F1C965F2200F2CDEE /* WithdrawCellHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WithdrawCellHeaderView.swift; sourceTree = "<group>"; };
+		F69DB4401C965F2200F2CDEE /* WithdrawCellHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WithdrawCellHeaderView.xib; sourceTree = "<group>"; };
+		F69DB4411C965F2200F2CDEE /* WithdrawTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WithdrawTableViewCell.swift; sourceTree = "<group>"; };
+		F69DB4421C965F2200F2CDEE /* WithdrawTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WithdrawTableViewCell.xib; sourceTree = "<group>"; };
+		F69DB4461C965F2200F2CDEE /* WithdrawSucceedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WithdrawSucceedVC.swift; sourceTree = "<group>"; };
+		F69DB4471C965F2200F2CDEE /* WithdrawSucceedVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WithdrawSucceedVC.xib; sourceTree = "<group>"; };
+		F69DB45B1C96617000F2CDEE /* ShippingAddressVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShippingAddressVC.swift; sourceTree = "<group>"; };
+		F69DB45C1C96617000F2CDEE /* ShippingAddressVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShippingAddressVC.xib; sourceTree = "<group>"; };
+		F69DB4601C96617000F2CDEE /* ShippingAddressTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShippingAddressTableViewCell.swift; sourceTree = "<group>"; };
+		F69DB4611C96617000F2CDEE /* ShippingAddressTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShippingAddressTableViewCell.xib; sourceTree = "<group>"; };
+		F69DB4651C96617000F2CDEE /* ShippingAddressAddVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShippingAddressAddVC.swift; sourceTree = "<group>"; };
+		F69DB4661C96617000F2CDEE /* ShippingAddressAddVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShippingAddressAddVC.xib; sourceTree = "<group>"; };
+		F69DB46D1C96617000F2CDEE /* ShippingAddressEditVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShippingAddressEditVC.swift; sourceTree = "<group>"; };
+		F69DB46E1C96617000F2CDEE /* ShippingAddressEditVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShippingAddressEditVC.xib; sourceTree = "<group>"; };
+		F69DB47B1C96635500F2CDEE /* LoginVCRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVCRequest.swift; sourceTree = "<group>"; };
+		F69DB47D1C96765200F2CDEE /* RegisterRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterRequest.swift; sourceTree = "<group>"; };
+		F69DB47F1C969D5500F2CDEE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F69DB4811C96A4AF00F2CDEE /* AddDataRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDataRequest.swift; sourceTree = "<group>"; };
+		F6A000781C98E552007B49B9 /* MineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineView.swift; sourceTree = "<group>"; };
 		F6A50B251C84129800396835 /* TabBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		F6A50B2C1C84133300396835 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		F6A50B2E1C8413CD00396835 /* d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = d.png; sourceTree = "<group>"; };
 		F6A50B301C84169B00396835 /* VseaSwfit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VseaSwfit-Bridging-Header.h"; sourceTree = "<group>"; };
 		F6A50B311C8417A700396835 /* HomeRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRequest.swift; sourceTree = "<group>"; };
+		F6CBFD271C9A69370004376B /* SearchBackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBackView.swift; sourceTree = "<group>"; };
+		F6CBFD291C9A694B0004376B /* SearchBackView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchBackView.xib; sourceTree = "<group>"; };
+		F6E25F371C992B7900ACEEB1 /* ShippingAddressModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShippingAddressModel.swift; sourceTree = "<group>"; };
+		F6E25F3B1C997F9600ACEEB1 /* CartVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartVC.swift; sourceTree = "<group>"; };
+		F6E25F3C1C997F9600ACEEB1 /* CartVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CartVC.xib; sourceTree = "<group>"; };
+		F6E25F431C9982F800ACEEB1 /* CartTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
+		F6E25F441C9982F800ACEEB1 /* CartTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CartTableViewCell.xib; sourceTree = "<group>"; };
+		F6E25F471C99831200ACEEB1 /* CartCellHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartCellHeader.swift; sourceTree = "<group>"; };
+		F6E25F491C99832100ACEEB1 /* CartCellFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartCellFooter.swift; sourceTree = "<group>"; };
+		F6E25F4B1C99832B00ACEEB1 /* CartCellHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CartCellHeader.xib; sourceTree = "<group>"; };
+		F6E25F4D1C99835600ACEEB1 /* CartCellFooter.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CartCellFooter.xib; sourceTree = "<group>"; };
+		F6E25F4F1C99933600ACEEB1 /* CartShopModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartShopModel.swift; sourceTree = "<group>"; };
+		F6E25F511C99936E00ACEEB1 /* CartGoodsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartGoodsModel.swift; sourceTree = "<group>"; };
+		F6E4A9511C93A31A00C560F3 /* RechargeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RechargeVC.swift; sourceTree = "<group>"; };
+		F6E4A9521C93A31A00C560F3 /* RechargeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RechargeVC.xib; sourceTree = "<group>"; };
+		F6E4A9551C93A3C700C560F3 /* NavigationItem+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NavigationItem+Category.swift"; sourceTree = "<group>"; };
+		F6E4A9611C93A9BC00C560F3 /* RechargeSucceedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RechargeSucceedVC.swift; sourceTree = "<group>"; };
+		F6E4A9621C93A9BC00C560F3 /* RechargeSucceedVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RechargeSucceedVC.xib; sourceTree = "<group>"; };
+		F6E4A9811C93B59700C560F3 /* BankCardvc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankCardvc.swift; sourceTree = "<group>"; };
+		F6E4A9821C93B59700C560F3 /* BankCardvc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BankCardvc.xib; sourceTree = "<group>"; };
+		F6E4A9951C93BC9700C560F3 /* BankCardAddVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankCardAddVC.swift; sourceTree = "<group>"; };
+		F6E4A9961C93BC9700C560F3 /* BankCardAddVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BankCardAddVC.xib; sourceTree = "<group>"; };
+		F6E4A9C81C941A2C00C560F3 /* AliPayVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AliPayVC.swift; sourceTree = "<group>"; };
+		F6E4A9C91C941A2C00C560F3 /* AliPayVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AliPayVC.xib; sourceTree = "<group>"; };
+		F6E4A9CC1C941A4300C560F3 /* AliPayAddVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AliPayAddVC.swift; sourceTree = "<group>"; };
+		F6E4A9CD1C941A4300C560F3 /* AliPayAddVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AliPayAddVC.xib; sourceTree = "<group>"; };
+		F6E4A9D01C941C1100C560F3 /* BankCardDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankCardDetailCell.swift; sourceTree = "<group>"; };
+		F6E4A9D11C941C1100C560F3 /* BankCardDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BankCardDetailCell.xib; sourceTree = "<group>"; };
+		F6E4A9D41C941C1F00C560F3 /* BankCardAddCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankCardAddCell.swift; sourceTree = "<group>"; };
+		F6E4A9D51C941C1F00C560F3 /* BankCardAddCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BankCardAddCell.xib; sourceTree = "<group>"; };
+		F6E4A9D81C941F0C00C560F3 /* AliPayDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AliPayDetailCell.swift; sourceTree = "<group>"; };
+		F6E4A9D91C941F0C00C560F3 /* AliPayDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AliPayDetailCell.xib; sourceTree = "<group>"; };
+		F6E4A9DC1C941F1C00C560F3 /* AliPayAddCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AliPayAddCell.swift; sourceTree = "<group>"; };
+		F6E4A9DD1C941F1C00C560F3 /* AliPayAddCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AliPayAddCell.xib; sourceTree = "<group>"; };
+		F6E57F911C9A359E00EAB8A2 /* SearchRecordCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRecordCell.swift; sourceTree = "<group>"; };
+		F6E57F921C9A359E00EAB8A2 /* SearchRecordCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchRecordCell.xib; sourceTree = "<group>"; };
+		F6E57F951C9A3C7100EAB8A2 /* SearchRecordFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRecordFooter.swift; sourceTree = "<group>"; };
+		F6E57F961C9A3C7100EAB8A2 /* SearchRecordFooter.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchRecordFooter.xib; sourceTree = "<group>"; };
 		F6F0597F1C858999005F84E9 /* HomeClassCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeClassCell.swift; sourceTree = "<group>"; };
 		F6F059801C858999005F84E9 /* HomeClassCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeClassCell.xib; sourceTree = "<group>"; };
 		F6F059851C858A57005F84E9 /* HomeClassView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeClassView.swift; sourceTree = "<group>"; };
@@ -128,6 +328,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F69DB4801C969D5500F2CDEE /* AVFoundation.framework in Frameworks */,
 				F620BEE81C880ECB00A498F4 /* libJX_HexToRGB.a in Frameworks */,
 				4ED9025E863CCE7E0BDE078A /* libPods.a in Frameworks */,
 			);
@@ -162,9 +363,157 @@
 		EA8D61AE3A8D7F931DAD7741 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F69DB47F1C969D5500F2CDEE /* AVFoundation.framework */,
 				27807B879CA305BFB5553013 /* libPods.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F60F2BA71C8E9A1A00440FE7 /* ResetPassword */ = {
+			isa = PBXGroup;
+			children = (
+				F60F2BA81C8E9A1A00440FE7 /* Controller */,
+				F60F2BA91C8E9A1A00440FE7 /* Model */,
+				F60F2BAA1C8E9A1A00440FE7 /* Request */,
+				F60F2BAB1C8E9A1A00440FE7 /* View */,
+				F60F2BAC1C8E9A1A00440FE7 /* ViewModel */,
+			);
+			path = ResetPassword;
+			sourceTree = "<group>";
+		};
+		F60F2BA81C8E9A1A00440FE7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F60F2BAD1C8E9A4D00440FE7 /* ResetPasswordVC.swift */,
+				F60F2BAE1C8E9A4D00440FE7 /* ResetPasswordVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F60F2BA91C8E9A1A00440FE7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F60F2BAA1C8E9A1A00440FE7 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		F60F2BAB1C8E9A1A00440FE7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F60F2BAC1C8E9A1A00440FE7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F61A01CC1C91565900C38545 /* Hometown */ = {
+			isa = PBXGroup;
+			children = (
+				F61A01CD1C91565900C38545 /* Controller */,
+				F61A01CE1C91565900C38545 /* Model */,
+				F61A01CF1C91565900C38545 /* Request */,
+				F61A01D01C91565900C38545 /* View */,
+				F61A01D11C91565900C38545 /* ViewModel */,
+			);
+			path = Hometown;
+			sourceTree = "<group>";
+		};
+		F61A01CD1C91565900C38545 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F61A01D21C91574500C38545 /* HometownVC.swift */,
+				F61A01D31C91574500C38545 /* HometownVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F61A01CE1C91565900C38545 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F61A01CF1C91565900C38545 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		F61A01D01C91565900C38545 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F61A01D11C91565900C38545 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F61A01D61C91583800C38545 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				F61A01D71C91583900C38545 /* Controller */,
+				F61A01D81C91583900C38545 /* Model */,
+				F61A01D91C91583900C38545 /* Request */,
+				F61A01DA1C91583900C38545 /* View */,
+				F61A01DB1C91583900C38545 /* ViewModel */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		F61A01D71C91583900C38545 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F61A01DC1C91585300C38545 /* ClassVC.swift */,
+				F61A01DD1C91585300C38545 /* ClassVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F61A01D81C91583900C38545 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F61A01D91C91583900C38545 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		F61A01DA1C91583900C38545 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F61A01DB1C91583900C38545 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		F627D1DF1C86E032003E73CA /* JX_HexToRGB */ = {
@@ -231,10 +580,781 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		F63433FC1C979ACE00E56A50 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				F63433FD1C979ACE00E56A50 /* Controller */,
+				F63433FE1C979ACE00E56A50 /* Model */,
+				F63433FF1C979ACE00E56A50 /* Request */,
+				F63434001C979ACE00E56A50 /* View */,
+				F63434011C979ACE00E56A50 /* ViewModel */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		F63433FD1C979ACE00E56A50 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F63434021C979BE800E56A50 /* SearchVC.swift */,
+				F63434031C979BE800E56A50 /* SearchVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F63433FE1C979ACE00E56A50 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F634340E1C97BB8C00E56A50 /* searchGoodsModel.swift */,
+				F63434101C97BB9A00E56A50 /* searchShopModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F63433FF1C979ACE00E56A50 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		F63434001C979ACE00E56A50 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F63434121C97E62600E56A50 /* SearchGoodsCell.swift */,
+				F63434131C97E62600E56A50 /* SearchGoodsCell.xib */,
+				F634341E1C98030000E56A50 /* SearchGoodsHeader.swift */,
+				F634341F1C98030000E56A50 /* SearchGoodsHeader.xib */,
+				F63434161C97E64200E56A50 /* SearchShopCell.swift */,
+				F63434171C97E64200E56A50 /* SearchShopCell.xib */,
+				F63434221C9806B700E56A50 /* NavSearchView.swift */,
+				F63434241C9806CA00E56A50 /* NavSearchView.xib */,
+				F6E57F911C9A359E00EAB8A2 /* SearchRecordCell.swift */,
+				F6E57F921C9A359E00EAB8A2 /* SearchRecordCell.xib */,
+				F6E57F951C9A3C7100EAB8A2 /* SearchRecordFooter.swift */,
+				F6E57F961C9A3C7100EAB8A2 /* SearchRecordFooter.xib */,
+				F6CBFD271C9A69370004376B /* SearchBackView.swift */,
+				F6CBFD291C9A694B0004376B /* SearchBackView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F63434011C979ACE00E56A50 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F64B59CA1C8D4C07001505A6 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				F64B59CB1C8D4C07001505A6 /* Controller */,
+				F64B59CC1C8D4C07001505A6 /* Model */,
+				F64B59CD1C8D4C07001505A6 /* Request */,
+				F64B59CE1C8D4C07001505A6 /* View */,
+				F64B59CF1C8D4C07001505A6 /* ViewModel */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		F64B59CB1C8D4C07001505A6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F64B59D41C8D4CB7001505A6 /* RegisterVC.swift */,
+				F64B59D51C8D4CB7001505A6 /* RegisterVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F64B59CC1C8D4C07001505A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F64B59CD1C8D4C07001505A6 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				F69DB47D1C96765200F2CDEE /* RegisterRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		F64B59CE1C8D4C07001505A6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F64B59CF1C8D4C07001505A6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F64B59D81C8D6F42001505A6 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F64B59D91C8D6F42001505A6 /* Controller */,
+				F64B59DA1C8D6F42001505A6 /* Model */,
+				F64B59DB1C8D6F42001505A6 /* Request */,
+				F64B59DC1C8D6F42001505A6 /* View */,
+				F64B59DD1C8D6F42001505A6 /* ViewModel */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F64B59D91C8D6F42001505A6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F64B59DE1C8D6F56001505A6 /* LoginVC.swift */,
+				F64B59DF1C8D6F56001505A6 /* LoginVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F64B59DA1C8D6F42001505A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F64B59DB1C8D6F42001505A6 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				F69DB47B1C96635500F2CDEE /* LoginVCRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		F64B59DC1C8D6F42001505A6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F64B59DD1C8D6F42001505A6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F64B59E21C8D95AF001505A6 /* AddData */ = {
+			isa = PBXGroup;
+			children = (
+				F64B59E31C8D95AF001505A6 /* Controller */,
+				F64B59E41C8D95AF001505A6 /* Model */,
+				F64B59E51C8D95AF001505A6 /* Request */,
+				F64B59E61C8D95AF001505A6 /* View */,
+				F64B59E71C8D95AF001505A6 /* ViewModel */,
+			);
+			path = AddData;
+			sourceTree = "<group>";
+		};
+		F64B59E31C8D95AF001505A6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F64B59E81C8D96F8001505A6 /* AddDataVC.swift */,
+				F64B59E91C8D96F8001505A6 /* AddDataVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F64B59E41C8D95AF001505A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F64B59E51C8D95AF001505A6 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				F69DB4811C96A4AF00F2CDEE /* AddDataRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		F64B59E61C8D95AF001505A6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F64B59E71C8D95AF001505A6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F64E8F1A1C96400300FA6CEA /* FundsManagement */ = {
+			isa = PBXGroup;
+			children = (
+				F69DB42D1C965F2200F2CDEE /* Withdraw */,
+				F6E4A94A1C93A2FA00C560F3 /* Recharge */,
+				F6E4A97A1C93B58500C560F3 /* BankCard */,
+				F6E4A9BB1C9419E200C560F3 /* AliPay */,
+				F64E8F1B1C96400300FA6CEA /* FundsDetail */,
+				F64E8F211C96400300FA6CEA /* MyWallet */,
+			);
+			path = FundsManagement;
+			sourceTree = "<group>";
+		};
+		F64E8F1B1C96400300FA6CEA /* FundsDetail */ = {
+			isa = PBXGroup;
+			children = (
+				F64E8F1C1C96400300FA6CEA /* Controller */,
+				F64E8F1D1C96400300FA6CEA /* Model */,
+				F64E8F1E1C96400300FA6CEA /* Request */,
+				F64E8F1F1C96400300FA6CEA /* View */,
+				F64E8F201C96400300FA6CEA /* ViewModel */,
+			);
+			path = FundsDetail;
+			sourceTree = "<group>";
+		};
+		F64E8F1C1C96400300FA6CEA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F64E8F2B1C96433800FA6CEA /* FundsDetailVC.swift */,
+				F64E8F2C1C96433800FA6CEA /* FundsDetailVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F64E8F1D1C96400300FA6CEA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F64E8F1E1C96400300FA6CEA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		F64E8F1F1C96400300FA6CEA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F64E8F2F1C96437800FA6CEA /* FundsDetailTableViewCell.swift */,
+				F64E8F301C96437800FA6CEA /* FundsDetailTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F64E8F201C96400300FA6CEA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F64E8F211C96400300FA6CEA /* MyWallet */ = {
+			isa = PBXGroup;
+			children = (
+				F64E8F221C96400300FA6CEA /* Controller */,
+				F64E8F231C96400300FA6CEA /* Model */,
+				F64E8F241C96400300FA6CEA /* Request */,
+				F64E8F251C96400300FA6CEA /* View */,
+				F64E8F261C96400300FA6CEA /* ViewModel */,
+			);
+			path = MyWallet;
+			sourceTree = "<group>";
+		};
+		F64E8F221C96400300FA6CEA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F64E8F271C96403900FA6CEA /* MyWalletVC.swift */,
+				F64E8F281C96403900FA6CEA /* MyWalletVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F64E8F231C96400300FA6CEA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F64E8F241C96400300FA6CEA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		F64E8F251C96400300FA6CEA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F64E8F261C96400300FA6CEA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F64E8F331C96479A00FA6CEA /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				F64E8F341C96479A00FA6CEA /* Mine */,
+				F64E8F3C1C96479A00FA6CEA /* MineDetail */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		F64E8F341C96479A00FA6CEA /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				F64E8F351C96479A00FA6CEA /* Controller */,
+				F64E8F381C96479A00FA6CEA /* Model */,
+				F64E8F391C96479A00FA6CEA /* Request */,
+				F64E8F3A1C96479A00FA6CEA /* View */,
+				F64E8F3B1C96479A00FA6CEA /* ViewModel */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		F64E8F351C96479A00FA6CEA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F64E8F361C96479A00FA6CEA /* MineVC.swift */,
+				F64E8F371C96479A00FA6CEA /* MineView.xib */,
+				F6A000781C98E552007B49B9 /* MineView.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F64E8F381C96479A00FA6CEA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F64E8F391C96479A00FA6CEA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		F64E8F3A1C96479A00FA6CEA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F64E8F3B1C96479A00FA6CEA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F64E8F3C1C96479A00FA6CEA /* MineDetail */ = {
+			isa = PBXGroup;
+			children = (
+				F64E8F3D1C96479A00FA6CEA /* Controller */,
+				F64E8F3E1C96479A00FA6CEA /* Model */,
+				F64E8F3F1C96479A00FA6CEA /* Request */,
+				F64E8F401C96479A00FA6CEA /* View */,
+				F64E8F411C96479A00FA6CEA /* ViewModel */,
+			);
+			path = MineDetail;
+			sourceTree = "<group>";
+		};
+		F64E8F3D1C96479A00FA6CEA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F64E8F441C9647CD00FA6CEA /* MineDetailVC.swift */,
+				F64E8F451C9647CD00FA6CEA /* MineDetailVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F64E8F3E1C96479A00FA6CEA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F64E8F3F1C96479A00FA6CEA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				F63434261C98309100E56A50 /* MineDetailRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		F64E8F401C96479A00FA6CEA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F64E8F411C96479A00FA6CEA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F66F9AD11C92ACA500250C1E /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				F66F9AD21C92ACE600250C1E /* Address.json */,
+				F66F9AD31C92ACE600250C1E /* Address.plist */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		F69DB42D1C965F2200F2CDEE /* Withdraw */ = {
+			isa = PBXGroup;
+			children = (
+				F69DB42E1C965F2200F2CDEE /* Withdraw */,
+				F69DB4361C965F2200F2CDEE /* WithdrawChoose */,
+				F69DB4441C965F2200F2CDEE /* WithdrawSucceed */,
+			);
+			name = Withdraw;
+			path = ../Withdraw;
+			sourceTree = "<group>";
+		};
+		F69DB42E1C965F2200F2CDEE /* Withdraw */ = {
+			isa = PBXGroup;
+			children = (
+				F69DB42F1C965F2200F2CDEE /* Controller */,
+				F69DB4321C965F2200F2CDEE /* Model */,
+				F69DB4331C965F2200F2CDEE /* Request */,
+				F69DB4341C965F2200F2CDEE /* View */,
+				F69DB4351C965F2200F2CDEE /* ViewModel */,
+			);
+			path = Withdraw;
+			sourceTree = "<group>";
+		};
+		F69DB42F1C965F2200F2CDEE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F69DB4301C965F2200F2CDEE /* WithdrawVC.swift */,
+				F69DB4311C965F2200F2CDEE /* WithdrawVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F69DB4321C965F2200F2CDEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F69DB4331C965F2200F2CDEE /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		F69DB4341C965F2200F2CDEE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F69DB4351C965F2200F2CDEE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F69DB4361C965F2200F2CDEE /* WithdrawChoose */ = {
+			isa = PBXGroup;
+			children = (
+				F69DB4371C965F2200F2CDEE /* Controller */,
+				F69DB43A1C965F2200F2CDEE /* Model */,
+				F69DB43B1C965F2200F2CDEE /* Request */,
+				F69DB43C1C965F2200F2CDEE /* View */,
+				F69DB4431C965F2200F2CDEE /* ViewModel */,
+			);
+			path = WithdrawChoose;
+			sourceTree = "<group>";
+		};
+		F69DB4371C965F2200F2CDEE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F69DB4381C965F2200F2CDEE /* WithdrawChooseVC.swift */,
+				F69DB4391C965F2200F2CDEE /* WithdrawChooseVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F69DB43A1C965F2200F2CDEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F69DB43B1C965F2200F2CDEE /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		F69DB43C1C965F2200F2CDEE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F69DB43D1C965F2200F2CDEE /* WithdrawCellFooterView.swift */,
+				F69DB43E1C965F2200F2CDEE /* WithdrawCellFooterView.xib */,
+				F69DB43F1C965F2200F2CDEE /* WithdrawCellHeaderView.swift */,
+				F69DB4401C965F2200F2CDEE /* WithdrawCellHeaderView.xib */,
+				F69DB4411C965F2200F2CDEE /* WithdrawTableViewCell.swift */,
+				F69DB4421C965F2200F2CDEE /* WithdrawTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F69DB4431C965F2200F2CDEE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F69DB4441C965F2200F2CDEE /* WithdrawSucceed */ = {
+			isa = PBXGroup;
+			children = (
+				F69DB4451C965F2200F2CDEE /* Controller */,
+				F69DB4481C965F2200F2CDEE /* Model */,
+				F69DB4491C965F2200F2CDEE /* Request */,
+				F69DB44A1C965F2200F2CDEE /* View */,
+				F69DB44B1C965F2200F2CDEE /* ViewModel */,
+			);
+			path = WithdrawSucceed;
+			sourceTree = "<group>";
+		};
+		F69DB4451C965F2200F2CDEE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F69DB4461C965F2200F2CDEE /* WithdrawSucceedVC.swift */,
+				F69DB4471C965F2200F2CDEE /* WithdrawSucceedVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F69DB4481C965F2200F2CDEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F69DB4491C965F2200F2CDEE /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		F69DB44A1C965F2200F2CDEE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F69DB44B1C965F2200F2CDEE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F69DB4581C96617000F2CDEE /* ShippingAddress */ = {
+			isa = PBXGroup;
+			children = (
+				F69DB4591C96617000F2CDEE /* ShippingAddress */,
+				F69DB4631C96617000F2CDEE /* ShippingAddressAdd */,
+				F69DB46B1C96617000F2CDEE /* ShippingAddressEdit */,
+			);
+			path = ShippingAddress;
+			sourceTree = "<group>";
+		};
+		F69DB4591C96617000F2CDEE /* ShippingAddress */ = {
+			isa = PBXGroup;
+			children = (
+				F69DB45A1C96617000F2CDEE /* Controller */,
+				F69DB45D1C96617000F2CDEE /* Model */,
+				F69DB45E1C96617000F2CDEE /* Request */,
+				F69DB45F1C96617000F2CDEE /* View */,
+				F69DB4621C96617000F2CDEE /* ViewModel */,
+			);
+			path = ShippingAddress;
+			sourceTree = "<group>";
+		};
+		F69DB45A1C96617000F2CDEE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F69DB45B1C96617000F2CDEE /* ShippingAddressVC.swift */,
+				F69DB45C1C96617000F2CDEE /* ShippingAddressVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F69DB45D1C96617000F2CDEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F6E25F371C992B7900ACEEB1 /* ShippingAddressModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F69DB45E1C96617000F2CDEE /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		F69DB45F1C96617000F2CDEE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F69DB4601C96617000F2CDEE /* ShippingAddressTableViewCell.swift */,
+				F69DB4611C96617000F2CDEE /* ShippingAddressTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F69DB4621C96617000F2CDEE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F69DB4631C96617000F2CDEE /* ShippingAddressAdd */ = {
+			isa = PBXGroup;
+			children = (
+				F69DB4641C96617000F2CDEE /* Controller */,
+				F69DB4671C96617000F2CDEE /* Model */,
+				F69DB4681C96617000F2CDEE /* Request */,
+				F69DB4691C96617000F2CDEE /* View */,
+				F69DB46A1C96617000F2CDEE /* ViewModel */,
+			);
+			path = ShippingAddressAdd;
+			sourceTree = "<group>";
+		};
+		F69DB4641C96617000F2CDEE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F69DB4651C96617000F2CDEE /* ShippingAddressAddVC.swift */,
+				F69DB4661C96617000F2CDEE /* ShippingAddressAddVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F69DB4671C96617000F2CDEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F69DB4681C96617000F2CDEE /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		F69DB4691C96617000F2CDEE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F69DB46A1C96617000F2CDEE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F69DB46B1C96617000F2CDEE /* ShippingAddressEdit */ = {
+			isa = PBXGroup;
+			children = (
+				F69DB46C1C96617000F2CDEE /* Controller */,
+				F69DB46F1C96617000F2CDEE /* Model */,
+				F69DB4701C96617000F2CDEE /* Request */,
+				F69DB4711C96617000F2CDEE /* View */,
+				F69DB4721C96617000F2CDEE /* ViewModel */,
+			);
+			path = ShippingAddressEdit;
+			sourceTree = "<group>";
+		};
+		F69DB46C1C96617000F2CDEE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F69DB46D1C96617000F2CDEE /* ShippingAddressEditVC.swift */,
+				F69DB46E1C96617000F2CDEE /* ShippingAddressEditVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F69DB46F1C96617000F2CDEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F69DB4701C96617000F2CDEE /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		F69DB4711C96617000F2CDEE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F69DB4721C96617000F2CDEE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		F6A50B0D1C84129800396835 /* Category */ = {
 			isa = PBXGroup;
 			children = (
 				F6F0598F1C85B887005F84E9 /* NavigationController+Category.swift */,
+				F6E4A9551C93A3C700C560F3 /* NavigationItem+Category.swift */,
 				F620BEE51C87DF3D00A498F4 /* UITableViewCell+Category.swift */,
 			);
 			path = Category;
@@ -250,20 +1370,22 @@
 		F6A50B0F1C84129800396835 /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
-				F627D1E81C86F4B8003E73CA /* GoodsDetail */,
-				F6A50B161C84129800396835 /* Classification */,
+				F6E25F391C997F9600ACEEB1 /* Cart */,
+				F63433FC1C979ACE00E56A50 /* Search */,
+				F69DB4581C96617000F2CDEE /* ShippingAddress */,
+				F64E8F331C96479A00FA6CEA /* Mine */,
+				F64E8F1A1C96400300FA6CEA /* FundsManagement */,
 				F6A50B171C84129800396835 /* Home */,
-				F6A50B1D1C84129800396835 /* Mine */,
+				F61A01D61C91583800C38545 /* Class */,
+				F61A01CC1C91565900C38545 /* Hometown */,
+				F60F2BA71C8E9A1A00440FE7 /* ResetPassword */,
+				F64B59E21C8D95AF001505A6 /* AddData */,
+				F64B59D81C8D6F42001505A6 /* Login */,
+				F64B59CA1C8D4C07001505A6 /* Register */,
+				F627D1E81C86F4B8003E73CA /* GoodsDetail */,
 				F6A50B231C84129800396835 /* TabBar */,
 			);
 			path = MVVM;
-			sourceTree = "<group>";
-		};
-		F6A50B161C84129800396835 /* Classification */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Classification;
 			sourceTree = "<group>";
 		};
 		F6A50B171C84129800396835 /* Home */ = {
@@ -334,53 +1456,6 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		F6A50B1D1C84129800396835 /* Mine */ = {
-			isa = PBXGroup;
-			children = (
-				F6A50B1E1C84129800396835 /* Controller */,
-				F6A50B1F1C84129800396835 /* Model */,
-				F6A50B201C84129800396835 /* Request */,
-				F6A50B211C84129800396835 /* View */,
-				F6A50B221C84129800396835 /* ViewModel */,
-			);
-			path = Mine;
-			sourceTree = "<group>";
-		};
-		F6A50B1E1C84129800396835 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		F6A50B1F1C84129800396835 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		F6A50B201C84129800396835 /* Request */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Request;
-			sourceTree = "<group>";
-		};
-		F6A50B211C84129800396835 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		F6A50B221C84129800396835 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
 		F6A50B231C84129800396835 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -436,6 +1511,395 @@
 				F6FD0EA91C842B4600A6A545 /* Request.swift */,
 			);
 			path = Venders;
+			sourceTree = "<group>";
+		};
+		F6E25F391C997F9600ACEEB1 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				F6E25F3A1C997F9600ACEEB1 /* Controller */,
+				F6E25F3D1C997F9600ACEEB1 /* Model */,
+				F6E25F3E1C997F9600ACEEB1 /* Request */,
+				F6E25F3F1C997F9600ACEEB1 /* View */,
+				F6E25F401C997F9600ACEEB1 /* ViewModel */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		F6E25F3A1C997F9600ACEEB1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F6E25F3B1C997F9600ACEEB1 /* CartVC.swift */,
+				F6E25F3C1C997F9600ACEEB1 /* CartVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F6E25F3D1C997F9600ACEEB1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F6E25F4F1C99933600ACEEB1 /* CartShopModel.swift */,
+				F6E25F511C99936E00ACEEB1 /* CartGoodsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F6E25F3E1C997F9600ACEEB1 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		F6E25F3F1C997F9600ACEEB1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F6E25F431C9982F800ACEEB1 /* CartTableViewCell.swift */,
+				F6E25F441C9982F800ACEEB1 /* CartTableViewCell.xib */,
+				F6E25F471C99831200ACEEB1 /* CartCellHeader.swift */,
+				F6E25F4B1C99832B00ACEEB1 /* CartCellHeader.xib */,
+				F6E25F491C99832100ACEEB1 /* CartCellFooter.swift */,
+				F6E25F4D1C99835600ACEEB1 /* CartCellFooter.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F6E25F401C997F9600ACEEB1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F6E4A94A1C93A2FA00C560F3 /* Recharge */ = {
+			isa = PBXGroup;
+			children = (
+				F6E4A9571C93A97A00C560F3 /* RechargeSucceed */,
+				F6E4A94B1C93A2FA00C560F3 /* Recharge */,
+			);
+			name = Recharge;
+			path = ../Recharge;
+			sourceTree = "<group>";
+		};
+		F6E4A94B1C93A2FA00C560F3 /* Recharge */ = {
+			isa = PBXGroup;
+			children = (
+				F6E4A94C1C93A2FA00C560F3 /* Controller */,
+				F6E4A94D1C93A2FA00C560F3 /* Model */,
+				F6E4A94E1C93A2FA00C560F3 /* Request */,
+				F6E4A94F1C93A2FA00C560F3 /* View */,
+				F6E4A9501C93A2FA00C560F3 /* ViewModel */,
+			);
+			path = Recharge;
+			sourceTree = "<group>";
+		};
+		F6E4A94C1C93A2FA00C560F3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F6E4A9511C93A31A00C560F3 /* RechargeVC.swift */,
+				F6E4A9521C93A31A00C560F3 /* RechargeVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F6E4A94D1C93A2FA00C560F3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F6E4A94E1C93A2FA00C560F3 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		F6E4A94F1C93A2FA00C560F3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F6E4A9501C93A2FA00C560F3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F6E4A9571C93A97A00C560F3 /* RechargeSucceed */ = {
+			isa = PBXGroup;
+			children = (
+				F6E4A9581C93A97A00C560F3 /* Controller */,
+				F6E4A95B1C93A97A00C560F3 /* Model */,
+				F6E4A95C1C93A97A00C560F3 /* Request */,
+				F6E4A95D1C93A97A00C560F3 /* View */,
+				F6E4A95E1C93A97A00C560F3 /* ViewModel */,
+			);
+			path = RechargeSucceed;
+			sourceTree = "<group>";
+		};
+		F6E4A9581C93A97A00C560F3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F6E4A9611C93A9BC00C560F3 /* RechargeSucceedVC.swift */,
+				F6E4A9621C93A9BC00C560F3 /* RechargeSucceedVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F6E4A95B1C93A97A00C560F3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F6E4A95C1C93A97A00C560F3 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		F6E4A95D1C93A97A00C560F3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F6E4A95E1C93A97A00C560F3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F6E4A97A1C93B58500C560F3 /* BankCard */ = {
+			isa = PBXGroup;
+			children = (
+				F6E4A98F1C93BC8300C560F3 /* BankCardAdd */,
+				F6E4A97B1C93B58500C560F3 /* BankCard */,
+			);
+			name = BankCard;
+			path = ../BankCard;
+			sourceTree = "<group>";
+		};
+		F6E4A97B1C93B58500C560F3 /* BankCard */ = {
+			isa = PBXGroup;
+			children = (
+				F6E4A97C1C93B58500C560F3 /* Controller */,
+				F6E4A97D1C93B58500C560F3 /* Model */,
+				F6E4A97E1C93B58500C560F3 /* Request */,
+				F6E4A97F1C93B58500C560F3 /* View */,
+				F6E4A9801C93B58500C560F3 /* ViewModel */,
+			);
+			path = BankCard;
+			sourceTree = "<group>";
+		};
+		F6E4A97C1C93B58500C560F3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F6E4A9811C93B59700C560F3 /* BankCardvc.swift */,
+				F6E4A9821C93B59700C560F3 /* BankCardvc.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F6E4A97D1C93B58500C560F3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F6E4A97E1C93B58500C560F3 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		F6E4A97F1C93B58500C560F3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F6E4A9D01C941C1100C560F3 /* BankCardDetailCell.swift */,
+				F6E4A9D11C941C1100C560F3 /* BankCardDetailCell.xib */,
+				F6E4A9D41C941C1F00C560F3 /* BankCardAddCell.swift */,
+				F6E4A9D51C941C1F00C560F3 /* BankCardAddCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F6E4A9801C93B58500C560F3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F6E4A98F1C93BC8300C560F3 /* BankCardAdd */ = {
+			isa = PBXGroup;
+			children = (
+				F6E4A9901C93BC8300C560F3 /* Controller */,
+				F6E4A9911C93BC8300C560F3 /* Model */,
+				F6E4A9921C93BC8300C560F3 /* Request */,
+				F6E4A9931C93BC8300C560F3 /* View */,
+				F6E4A9941C93BC8300C560F3 /* ViewModel */,
+			);
+			path = BankCardAdd;
+			sourceTree = "<group>";
+		};
+		F6E4A9901C93BC8300C560F3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F6E4A9951C93BC9700C560F3 /* BankCardAddVC.swift */,
+				F6E4A9961C93BC9700C560F3 /* BankCardAddVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F6E4A9911C93BC8300C560F3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F6E4A9921C93BC8300C560F3 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		F6E4A9931C93BC8300C560F3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F6E4A9941C93BC8300C560F3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F6E4A9BB1C9419E200C560F3 /* AliPay */ = {
+			isa = PBXGroup;
+			children = (
+				F6E4A9BC1C9419E200C560F3 /* AliPay */,
+				F6E4A9C21C9419E200C560F3 /* AliPayAdd */,
+			);
+			name = AliPay;
+			path = ../AliPay;
+			sourceTree = "<group>";
+		};
+		F6E4A9BC1C9419E200C560F3 /* AliPay */ = {
+			isa = PBXGroup;
+			children = (
+				F6E4A9BD1C9419E200C560F3 /* Controller */,
+				F6E4A9BE1C9419E200C560F3 /* Model */,
+				F6E4A9BF1C9419E200C560F3 /* Request */,
+				F6E4A9C01C9419E200C560F3 /* View */,
+				F6E4A9C11C9419E200C560F3 /* ViewModel */,
+			);
+			path = AliPay;
+			sourceTree = "<group>";
+		};
+		F6E4A9BD1C9419E200C560F3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F6E4A9C81C941A2C00C560F3 /* AliPayVC.swift */,
+				F6E4A9C91C941A2C00C560F3 /* AliPayVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F6E4A9BE1C9419E200C560F3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F6E4A9BF1C9419E200C560F3 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		F6E4A9C01C9419E200C560F3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F6E4A9D81C941F0C00C560F3 /* AliPayDetailCell.swift */,
+				F6E4A9D91C941F0C00C560F3 /* AliPayDetailCell.xib */,
+				F6E4A9DC1C941F1C00C560F3 /* AliPayAddCell.swift */,
+				F6E4A9DD1C941F1C00C560F3 /* AliPayAddCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F6E4A9C11C9419E200C560F3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F6E4A9C21C9419E200C560F3 /* AliPayAdd */ = {
+			isa = PBXGroup;
+			children = (
+				F6E4A9C31C9419E200C560F3 /* Controller */,
+				F6E4A9C41C9419E200C560F3 /* Model */,
+				F6E4A9C51C9419E200C560F3 /* Request */,
+				F6E4A9C61C9419E200C560F3 /* View */,
+				F6E4A9C71C9419E200C560F3 /* ViewModel */,
+			);
+			path = AliPayAdd;
+			sourceTree = "<group>";
+		};
+		F6E4A9C31C9419E200C560F3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F6E4A9CC1C941A4300C560F3 /* AliPayAddVC.swift */,
+				F6E4A9CD1C941A4300C560F3 /* AliPayAddVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F6E4A9C41C9419E200C560F3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F6E4A9C51C9419E200C560F3 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		F6E4A9C61C9419E200C560F3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F6E4A9C71C9419E200C560F3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		F6F059871C85B60E005F84E9 /* General */ = {
@@ -510,6 +1974,7 @@
 		F6F60CC61C840FEC00C0FD71 /* VseaSwift */ = {
 			isa = PBXGroup;
 			children = (
+				F66F9AD11C92ACA500250C1E /* DataSource */,
 				F6A50B2E1C8413CD00396835 /* d.png */,
 				F6F059871C85B60E005F84E9 /* General */,
 				F6A50B0D1C84129800396835 /* Category */,
@@ -652,18 +2117,63 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F69DB44D1C965F2200F2CDEE /* WithdrawVC.xib in Resources */,
+				F64B59E11C8D6F56001505A6 /* LoginVC.xib in Resources */,
 				F6F059A31C85BFFD005F84E9 /* HomeGoodsDetailCell.xib in Resources */,
+				F6E4A9CB1C941A2C00C560F3 /* AliPayVC.xib in Resources */,
 				F627D1C51C869D2A003E73CA /* HomeClassTabCell.xib in Resources */,
+				F66F9AD51C92ACE600250C1E /* Address.plist in Resources */,
+				F6E4A9641C93A9BC00C560F3 /* RechargeSucceedVC.xib in Resources */,
+				F6E4A9D71C941C1F00C560F3 /* BankCardAddCell.xib in Resources */,
 				F6F0599B1C85BE21005F84E9 /* HomeTitleCell.xib in Resources */,
+				F69DB4531C965F2200F2CDEE /* WithdrawCellHeaderView.xib in Resources */,
+				F64E8F2E1C96433800FA6CEA /* FundsDetailVC.xib in Resources */,
+				F6E57F981C9A3C7100EAB8A2 /* SearchRecordFooter.xib in Resources */,
+				F69DB4551C965F2200F2CDEE /* WithdrawTableViewCell.xib in Resources */,
+				F69DB44F1C965F2200F2CDEE /* WithdrawChooseVC.xib in Resources */,
 				F6A50B2F1C8413CD00396835 /* d.png in Resources */,
+				F63434151C97E62600E56A50 /* SearchGoodsCell.xib in Resources */,
+				F6E4A9541C93A31A00C560F3 /* RechargeVC.xib in Resources */,
+				F6CBFD2A1C9A694B0004376B /* SearchBackView.xib in Resources */,
 				F627D1F41C86F888003E73CA /* GoodsDetailNameCell.xib in Resources */,
+				F6E4A9841C93B59700C560F3 /* BankCardvc.xib in Resources */,
+				F6E4A9DF1C941F1C00C560F3 /* AliPayAddCell.xib in Resources */,
+				F63434211C98030000E56A50 /* SearchGoodsHeader.xib in Resources */,
+				F6E4A9D31C941C1100C560F3 /* BankCardDetailCell.xib in Resources */,
+				F6E4A9981C93BC9700C560F3 /* BankCardAddVC.xib in Resources */,
+				F61A01DF1C91585300C38545 /* ClassVC.xib in Resources */,
+				F60F2BB01C8E9A4D00440FE7 /* ResetPasswordVC.xib in Resources */,
+				F6E4A9CF1C941A4300C560F3 /* AliPayAddVC.xib in Resources */,
+				F64E8F431C96479A00FA6CEA /* MineView.xib in Resources */,
 				F627D1F31C86F888003E73CA /* GoodsDetailFooterCell.xib in Resources */,
+				F69DB4511C965F2200F2CDEE /* WithdrawCellFooterView.xib in Resources */,
+				F64E8F2A1C96403900FA6CEA /* MyWalletVC.xib in Resources */,
+				F64E8F471C9647CD00FA6CEA /* MineDetailVC.xib in Resources */,
+				F6E25F4C1C99832B00ACEEB1 /* CartCellHeader.xib in Resources */,
+				F6E4A9DB1C941F0C00C560F3 /* AliPayDetailCell.xib in Resources */,
+				F63434251C9806CA00E56A50 /* NavSearchView.xib in Resources */,
+				F69DB4571C965F2200F2CDEE /* WithdrawSucceedVC.xib in Resources */,
+				F69DB4741C96617000F2CDEE /* ShippingAddressVC.xib in Resources */,
 				F6F60CD21C840FEC00C0FD71 /* LaunchScreen.storyboard in Resources */,
 				F6F059821C858999005F84E9 /* HomeClassCell.xib in Resources */,
 				F6F059971C85BC67005F84E9 /* HomeDivisionCell.xib in Resources */,
+				F64B59EB1C8D96F8001505A6 /* AddDataVC.xib in Resources */,
+				F6E25F421C997F9600ACEEB1 /* CartVC.xib in Resources */,
 				F6F60CCF1C840FEC00C0FD71 /* Assets.xcassets in Resources */,
+				F6E25F4E1C99835600ACEEB1 /* CartCellFooter.xib in Resources */,
+				F61A01D51C91574500C38545 /* HometownVC.xib in Resources */,
 				F6F0599F1C85BFA7005F84E9 /* HomeAdvertisementCell.xib in Resources */,
+				F69DB4781C96617000F2CDEE /* ShippingAddressAddVC.xib in Resources */,
+				F64B59D71C8D4CB7001505A6 /* RegisterVC.xib in Resources */,
+				F69DB4761C96617000F2CDEE /* ShippingAddressTableViewCell.xib in Resources */,
+				F69DB47A1C96617000F2CDEE /* ShippingAddressEditVC.xib in Resources */,
+				F66F9AD41C92ACE600250C1E /* Address.json in Resources */,
+				F63434051C979BE800E56A50 /* SearchVC.xib in Resources */,
+				F6E57F941C9A359E00EAB8A2 /* SearchRecordCell.xib in Resources */,
+				F64E8F321C96437800FA6CEA /* FundsDetailTableViewCell.xib in Resources */,
+				F63434191C97E64200E56A50 /* SearchShopCell.xib in Resources */,
 				F627D1F51C86F888003E73CA /* GoodsDetailParameterCell.xib in Resources */,
+				F6E25F461C9982F800ACEEB1 /* CartTableViewCell.xib in Resources */,
 				F6F60CCD1C840FEC00C0FD71 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -750,31 +2260,85 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F69DB44C1C965F2200F2CDEE /* WithdrawVC.swift in Sources */,
+				F634340F1C97BB8C00E56A50 /* searchGoodsModel.swift in Sources */,
+				F69DB4521C965F2200F2CDEE /* WithdrawCellHeaderView.swift in Sources */,
 				F6A50B2D1C84133300396835 /* HomeVC.swift in Sources */,
+				F6E4A9831C93B59700C560F3 /* BankCardvc.swift in Sources */,
+				F61A01DE1C91585300C38545 /* ClassVC.swift in Sources */,
+				F64E8F2D1C96433800FA6CEA /* FundsDetailVC.swift in Sources */,
+				F60F2BAF1C8E9A4D00440FE7 /* ResetPasswordVC.swift in Sources */,
+				F63434201C98030000E56A50 /* SearchGoodsHeader.swift in Sources */,
 				F627D1E51C86E2AD003E73CA /* HomeGoodsDetailViewModel.swift in Sources */,
 				F627D1F71C86F914003E73CA /* GoodsDetailVC.swift in Sources */,
 				F627D1FD1C86FB60003E73CA /* GoodsDetailNameCell.swift in Sources */,
+				F64E8F311C96437800FA6CEA /* FundsDetailTableViewCell.swift in Sources */,
+				F69DB4791C96617000F2CDEE /* ShippingAddressEditVC.swift in Sources */,
+				F6E25F381C992B7900ACEEB1 /* ShippingAddressModel.swift in Sources */,
+				F63434271C98309100E56A50 /* MineDetailRequest.swift in Sources */,
 				F627D1BF1C869680003E73CA /* HomeClassModel.swift in Sources */,
 				F68C191C1C866AAB0017E9B1 /* HomeMainView.swift in Sources */,
+				F6E25F521C99936E00ACEEB1 /* CartGoodsModel.swift in Sources */,
+				F6CBFD281C9A69370004376B /* SearchBackView.swift in Sources */,
+				F6E25F481C99831200ACEEB1 /* CartCellHeader.swift in Sources */,
+				F6A000791C98E552007B49B9 /* MineView.swift in Sources */,
+				F69DB4541C965F2200F2CDEE /* WithdrawTableViewCell.swift in Sources */,
 				F6F0599E1C85BFA7005F84E9 /* HomeAdvertisementCell.swift in Sources */,
+				F6E4A9531C93A31A00C560F3 /* RechargeVC.swift in Sources */,
 				F627D1BD1C868E55003E73CA /* HomeClassViewModel.swift in Sources */,
+				F6E4A9DE1C941F1C00C560F3 /* AliPayAddCell.swift in Sources */,
 				F6F059951C85BC5D005F84E9 /* HomeDivisionCell.swift in Sources */,
+				F6E4A9D21C941C1100C560F3 /* BankCardDetailCell.swift in Sources */,
 				F627D1FF1C86FB6F003E73CA /* GoodsDetailParameterCell.swift in Sources */,
 				F6A50B2B1C84129800396835 /* TabBarVC.swift in Sources */,
+				F69DB4751C96617000F2CDEE /* ShippingAddressTableViewCell.swift in Sources */,
+				F6E4A9561C93A3C700C560F3 /* NavigationItem+Category.swift in Sources */,
 				F627D1E71C86E2DD003E73CA /* HomeGoodsDetailModel.swift in Sources */,
 				F627D1FB1C86FB45003E73CA /* GoodsDetailFooterCell.swift in Sources */,
+				F64E8F291C96403900FA6CEA /* MyWalletVC.swift in Sources */,
+				F6E25F4A1C99832100ACEEB1 /* CartCellFooter.swift in Sources */,
+				F64E8F421C96479A00FA6CEA /* MineVC.swift in Sources */,
+				F6E4A9631C93A9BC00C560F3 /* RechargeSucceedVC.swift in Sources */,
 				F627D1C41C869D2A003E73CA /* HomeClassTabCell.swift in Sources */,
 				F6F059A21C85BFFD005F84E9 /* HomeGoodsDetailCell.swift in Sources */,
+				F63434181C97E64200E56A50 /* SearchShopCell.swift in Sources */,
+				F6E4A9971C93BC9700C560F3 /* BankCardAddVC.swift in Sources */,
+				F6E25F451C9982F800ACEEB1 /* CartTableViewCell.swift in Sources */,
 				F620BEE61C87DF3D00A498F4 /* UITableViewCell+Category.swift in Sources */,
+				F6E25F501C99933600ACEEB1 /* CartShopModel.swift in Sources */,
+				F6E4A9CA1C941A2C00C560F3 /* AliPayVC.swift in Sources */,
+				F6E25F411C997F9600ACEEB1 /* CartVC.swift in Sources */,
+				F69DB4821C96A4AF00F2CDEE /* AddDataRequest.swift in Sources */,
+				F6E4A9DA1C941F0C00C560F3 /* AliPayDetailCell.swift in Sources */,
+				F6E57F971C9A3C7100EAB8A2 /* SearchRecordFooter.swift in Sources */,
 				F6FD0EAA1C842B4600A6A545 /* Request.swift in Sources */,
 				F6F059901C85B887005F84E9 /* NavigationController+Category.swift in Sources */,
+				F61A01D41C91574500C38545 /* HometownVC.swift in Sources */,
+				F69DB4561C965F2200F2CDEE /* WithdrawSucceedVC.swift in Sources */,
 				F6A50B321C8417A700396835 /* HomeRequest.swift in Sources */,
+				F69DB44E1C965F2200F2CDEE /* WithdrawChooseVC.swift in Sources */,
+				F69DB4501C965F2200F2CDEE /* WithdrawCellFooterView.swift in Sources */,
+				F69DB4731C96617000F2CDEE /* ShippingAddressVC.swift in Sources */,
+				F63434041C979BE800E56A50 /* SearchVC.swift in Sources */,
+				F69DB47C1C96635500F2CDEE /* LoginVCRequest.swift in Sources */,
+				F6E4A9D61C941C1F00C560F3 /* BankCardAddCell.swift in Sources */,
+				F63434231C9806B700E56A50 /* NavSearchView.swift in Sources */,
 				F627D1C71C86B70A003E73CA /* HomeDivisionModel.swift in Sources */,
 				F627D1F91C86F984003E73CA /* GoodsDetailBackView.swift in Sources */,
+				F64E8F461C9647CD00FA6CEA /* MineDetailVC.swift in Sources */,
+				F63434111C97BB9A00E56A50 /* searchShopModel.swift in Sources */,
 				F6F60CC81C840FEC00C0FD71 /* AppDelegate.swift in Sources */,
 				F6F0599A1C85BE21005F84E9 /* HomeTitleCell.swift in Sources */,
+				F64B59E01C8D6F56001505A6 /* LoginVC.swift in Sources */,
+				F6E57F931C9A359E00EAB8A2 /* SearchRecordCell.swift in Sources */,
+				F63434141C97E62600E56A50 /* SearchGoodsCell.swift in Sources */,
 				F6F059861C858A57005F84E9 /* HomeClassView.swift in Sources */,
+				F69DB47E1C96765200F2CDEE /* RegisterRequest.swift in Sources */,
+				F6E4A9CE1C941A4300C560F3 /* AliPayAddVC.swift in Sources */,
 				F6F059811C858999005F84E9 /* HomeClassCell.swift in Sources */,
+				F64B59EA1C8D96F8001505A6 /* AddDataVC.swift in Sources */,
+				F64B59D61C8D4CB7001505A6 /* RegisterVC.swift in Sources */,
+				F69DB4771C96617000F2CDEE /* ShippingAddressAddVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -933,7 +2497,7 @@
 					"\"${PODS_ROOT}/Headers/Public/SVProgressHUD\"",
 				);
 				INFOPLIST_FILE = VseaSwift/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -942,6 +2506,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = VSea.Mall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/VseaSwift/VseaSwfit-Bridging-Header.h";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -966,7 +2531,7 @@
 					"\"${PODS_ROOT}/Headers/Public/SVProgressHUD\"",
 				);
 				INFOPLIST_FILE = VseaSwift/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -975,6 +2540,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = VSea.Mall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/VseaSwift/VseaSwfit-Bridging-Header.h";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="U6b-Vx-4bR" customClass="SearchRecordFooter" customModule="VseaSwift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="406" height="155"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b38-nP-05W">
+                    <rect key="frame" x="167" y="63" width="72" height="29"/>
+                    <state key="normal">
+                        <attributedString key="attributedTitle">
+                            <fragment content="清除历史纪录">
+                                <attributes>
+                                    <color key="NSColor" red="0.29019607843137252" green="0.80784313725490198" blue="0.63137254901960782" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="12" name="PingFangSC-Thin"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                    </state>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="b38-nP-05W" firstAttribute="centerX" secondItem="U6b-Vx-4bR" secondAttribute="centerX" id="BCU-Pn-wmF"/>
+                <constraint firstItem="b38-nP-05W" firstAttribute="centerY" secondItem="U6b-Vx-4bR" secondAttribute="centerY" id="rHL-tU-L0j"/>
+            </constraints>
+            <connections>
+                <outlet property="ClearHistory" destination="b38-nP-05W" id="JgE-HS-rjJ"/>
+            </connections>
+            <point key="canvasLocation" x="622" y="412.5"/>
+        </collectionReusableView>
+    </objects>
+</document>

@@ -12,11 +12,11 @@ class HomeRequest: NSObject {
 
     
     
-    func requestDatas(timeOut timeOut:NSTimeInterval, url:String, callBack:(objects:NSObject)->Void) {
+    func requestDatas(timeOut timeOut:NSTimeInterval, url:String, callBack:(objects:AnyObject?)->Void) {
         Request.GetData(timeOut: timeOut, url: url) { (response, data, error) -> Void in
             do {
                 let object = try NSJSONSerialization.JSONObjectWithData(data as! NSData, options: .MutableLeaves)
-                callBack(objects: object as! NSObject)
+                callBack(objects: object)
             }catch {
                 
             }
